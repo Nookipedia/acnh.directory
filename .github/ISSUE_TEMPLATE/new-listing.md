@@ -1,7 +1,7 @@
 ---
 name: New listing
-about: Submit a new resource for ACNH.Directory
-title: 'New resource: <RESOURCE NAME HERE>'
+about: Submit a new listing for ACNH.Directory
+title: 'New listing: <RESOURCE NAME HERE>'
 labels: new listing
 assignees: ''
 
