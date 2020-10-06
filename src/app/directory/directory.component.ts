@@ -29,13 +29,15 @@ export class DirectoryComponent implements OnInit {
   projects = [];
   filterData = [];
   ifFilterMeetsAll = false;
+  sorted = false;
 
   ngOnInit() {
     this.httpService.get(environment.projectData).subscribe(
       data => {
         // Set projects and filterData arrays to project data:
-        this.projects = data as string [];
-        this.filterData = data as string [];
+        const shuffledData = this.shuffle(data as string []);
+        this.projects = shuffledData;
+        this.filterData = shuffledData;
 
         this.applyFilters();
       },
@@ -200,4 +202,60 @@ export class DirectoryComponent implements OnInit {
 
     this.applyFilters();
   }
+
+  shuffleProjects() {
+    this.filterData = this.shuffle(this.filterData);
+    this.sorted = false;
+    this.applyFilters();
+  }
+
+  shuffle(arr) {
+    for (var i = 0; i < arr.length - 1; i++) {
+        var j = i + Math.floor(Math.random() * (arr.length - i));
+
+        var temp = arr[j];
+        arr[j] = arr[i];
+        arr[i] = temp;
+    }
+    return arr;
+  }
+
+  sortProjects() {
+    if(this.sorted) {
+      this.filterData.sort(this.sortZToA);
+      this.sorted = false;
+    } else {
+      this.filterData.sort(this.sortAToZ);
+      this.sorted = true;
+    }
+    this.applyFilters();
+  }
+
+  sortAToZ(a, b) {
+    const name1 = a.name.toUpperCase();
+    const name2 = b.name.toUpperCase();
+  
+    let comparison = 0;
+    if (name1 > name2) {
+      comparison = 1;
+    } else if (name1 < name2) {
+      comparison = -1;
+    }
+    return comparison;
+  }
+
+  sortZToA(a, b) {
+    const name1 = a.name.toUpperCase();
+    const name2 = b.name.toUpperCase();
+  
+    let comparison = 0;
+    if (name1 < name2) {
+      comparison = 1;
+    } else if (name1 > name2) {
+      comparison = -1;
+    }
+    return comparison;
+  }
+  
+
 }

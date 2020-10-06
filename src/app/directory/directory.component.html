@@ -111,6 +111,9 @@
       </div>
       <div class="font-prose">
         <button class="button" (click)="resetFilters()">Reset Filters</button>
+        <br><br>
+        <button class="button" (click)="shuffleProjects()">Randomize Order</button>
+        <button class="button" (click)="sortProjects()"><span *ngIf="!sorted">Sort A → Z</span><span *ngIf="sorted">Sort Z → A</span></button>
       </div>
     </div>
   </div>
