@@ -492,10 +492,10 @@
     "facebook": "",
     "instagram": "",
     "twitter": "",
-    "information": [
+    "information": [],
+    "tools": [
       "weather"
-    ],
-    "tools": []
+    ]
   },
   {
     "name": "Nookazon",
