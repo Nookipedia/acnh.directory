@@ -210,6 +210,10 @@ label span {
     display: block;
     text-align: center;
   }
+
+  .name-container {
+    height: auto;
+  }
   
   .title {
     margin-bottom: 10px;
