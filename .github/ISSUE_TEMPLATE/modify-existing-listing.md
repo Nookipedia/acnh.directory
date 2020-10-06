@@ -1,7 +1,7 @@
 ---
 name: Modify existing listing
-about: 'Modify listing: <RESOURCE NAME HERE>'
-title: ''
+about: Modify an existing entry.
+title: 'Modify listing: <RESOURCE NAME HERE> '
 labels: modify listing
 assignees: ''
 
