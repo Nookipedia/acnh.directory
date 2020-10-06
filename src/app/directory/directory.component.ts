@@ -59,8 +59,8 @@ export class DirectoryComponent implements OnInit {
       { item_id: 'flowers', item_text: 'Flowers' },
       { item_id: 'fossils', item_text: 'Fossils' },
       { item_id: 'gameplay', item_text: 'Gameplay' },
+      { item_id: 'gifts', item_text: 'Gifting' },
       { item_id: 'items', item_text: 'Items' },
-      { item_id: 'gifts', item_text: 'Villager Gifts' },
       { item_id: 'villagers', item_text: 'Villagers' }
     ];
     this.dropdownListTools = [
@@ -68,6 +68,7 @@ export class DirectoryComponent implements OnInit {
       { item_id: 'checklist', item_text: 'Checklist' },
       { item_id: 'design sharing', item_text: 'Design Sharing' },
       { item_id: 'dreams', item_text: 'Dream Sharing' },
+      { item_id: 'fake art', item_text: 'Fake Art Detection' },
       { item_id: 'island rating', item_text: 'Island Rating Calc' },
       { item_id: 'marketplace', item_text: 'Marketplace' },
       { item_id: 'music', item_text: 'Music Player' },
