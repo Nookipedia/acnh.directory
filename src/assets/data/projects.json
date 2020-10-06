@@ -675,8 +675,8 @@
   },
   {
     "name": "Nook Plaza",
-    "description": "Item catalog, checklists, gift guide, island rating calculator, weather forecasting, and more",
-    "languages": ["en"],
+    "description": "Item catalog, wishlists, villager gifts, island rating calc, weather forecasting, fake art detector, and more!",
+    "languages": ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
     "logo": "nook-plaza.png",
     "logoStyle": "banner",
     "site": "https://nookplaza.net/",
@@ -684,17 +684,23 @@
     "ios": "",
     "discord": "SppmqEk",
     "facebook": "",
-    "instagram": "",
-    "twitter": "",
+    "instagram": "nookplaza",
+    "twitter": "nook_plaza",
     "information": [
-      "items"
+      "items",
+      "villagers",
+      "villager gifts",
+      "art",
+      "critters",
+      "fossils",
     ],
     "tools": [
       "checklist",
       "gifts",
       "island rating",
       "simulator",
-      "weather"
+      "weather",
+      "fake art detector"
     ]
   },
   {
