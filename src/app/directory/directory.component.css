@@ -1,0 +1,227 @@
+/* LAYOUT */
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.description {
+  flex: 1;
+  font-size: .95em;
+  padding: 10px 5px 0;
+}
+
+.results {
+  display: grid;
+  grid-gap: 0 70px;
+  grid-template-columns:repeat(auto-fill, 450px);
+  justify-content: center;
+  margin-left: -6px;
+  width: 99%;
+}
+
+/* FILTERS */
+
+form label {
+  padding: 5px;
+  white-space: nowrap;
+}
+
+form div {
+  display: inline-block;
+}
+
+form label span {
+  white-space: nowrap;
+}
+
+#filters-container {
+  column-gap: 40px;
+  margin: 0 auto;
+  width: max-content;
+}
+
+#lang-form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.filter {
+  padding: 0px 5px 10px 5px;
+}
+
+.toggle-label {
+  display: table-cell;
+  font-size: .9em;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
+/* LISTINGS */
+
+a.button {
+  background-color: green;
+  border-radius: 4px;
+  color: #FFFFFF;
+  display: inline-block;
+  min-width: 50px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+label img {
+  vertical-align: middle;
+}
+
+label span {
+  color: #575757;
+}
+
+.listing {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin: 1em auto;
+  padding: 20px 7px 10px;
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Coustard', 'Linux Libertine', Georgia, Times, serif;
+  font-size: 1.6em;
+}
+
+.name-container {
+  height: 100px;
+}
+
+.name-container img {
+  max-height: 100px;
+  max-width: 90%;
+}
+
+.image-container {
+  max-width: 60%;
+}
+
+.logo-border {
+  -webkit-filter: drop-shadow(1px1px0black) drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+}
+
+.link-button img {
+  padding: 6px 0 3px;
+}
+
+.link-button div {
+  border-radius: 7px;
+  flex: 1;
+  margin: 0 3px;
+}
+
+.link-button div:hover {
+  filter: brightness(85%);
+}
+
+.link-button.site {
+  background-color: #666699;
+  box-shadow: 2px 2px #2b2b68;
+}
+
+.link-button.android {
+  background-color: #3DDC84;
+  box-shadow: 2px 2px #00bd52;
+}
+
+.link-button.ios {
+  background-color: #666666;
+  box-shadow: 2px 2px #040303;
+}
+
+.link-button.facebook {
+  background-color: #3C64A7;
+  box-shadow: 2px 2px #13397a;
+}
+
+.link-button.twitter {
+  background-color: #00B3E0;
+  box-shadow: 2px 2px #00637a;
+}
+
+.link-button.instagram {
+  background-color: #F00075;
+  box-shadow: 2px 2px #b60059;
+}
+
+
+.link-button.discord {
+  background-color: #7289DA;
+  box-shadow: 2px 2px #334dad;
+}
+
+.tags {
+  padding: 0 5px 10px;
+}
+
+.tag {
+  border-radius: 10px;
+  color: #464646;
+  display: inline-block;
+  font-size: .8em;
+  margin: 5px;
+  padding: 2px 4px;
+}
+
+.tag.platforms {
+  background: #A6D8E5;
+  border: 2px solid #359EBB;
+}
+
+.tag.information {
+  background: #F5EA9A;
+  border: 2px solid #F1E26F;
+}
+
+.tag.tools {
+  background: #AFD9C0;
+  border: 2px solid #61A33E;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 750px) {
+  a.button {
+    width: 50%;
+  }
+  
+  #filters-container {
+    display: block;
+    width: 100%;
+  }
+  
+  .results {
+    grid-template-columns: repeat(auto-fill, 90%) !important;
+  }
+  
+  .listing {
+    display: block;
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+    max-width: 200px;
+  }
+  
+  .flex-item.filter {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .flex-container-inline {
+    display: block;
+  }
+}

@@ -1,0 +1,203 @@
+<div>
+  <div class="box centered">
+    <div class="content-div">
+        <h3 class="font-tools coustard">Resource Language</h3>
+        <form id="lang-form" class="coustard" [formGroup]="langForm">
+          <div>
+            <label for="en">
+              <input id="en" type="radio" value="en" name="lang" value="en" (change)="applyFilters()" formControlName="lang" />
+              <span>English</span>
+            </label>
+          </div>
+          <div>
+            <label for="es">
+              <input id="es" type="radio" value="es" name="lang" value="es" (change)="applyFilters()" formControlName="lang" />
+              <span>Español</span>
+            </label>
+          </div>
+          <div>
+            <label for="fr">
+              <input id="fr" type="radio" value="fr" name="lang" value="fr" (change)="applyFilters()" formControlName="lang" />
+              <span>Français</span>
+            </label>
+          </div>
+          <div>
+            <label for="de">
+              <input id="de" type="radio" value="de" name="lang" value="de" (change)="applyFilters()" formControlName="lang" />
+              <span>Deutsch</span>
+            </label>
+          </div>
+          <div>
+            <label for="it">
+              <input id="it" type="radio" value="it" name="lang" value="it" (change)="applyFilters()" formControlName="lang" />
+              <span>Italiano</span>
+            </label>
+          </div>
+          <div>
+            <label for="nl">
+              <input id="nl" type="radio" value="nl" name="lang" value="nl" (change)="applyFilters()" formControlName="lang" />
+              <span>Nederlands</span>
+            </label>
+          </div>
+          <div>
+            <label for="ru">
+              <input id="ru" type="radio" value="ru" name="lang" value="ru" (change)="applyFilters()" formControlName="lang" />
+              <span>Русский</span>
+            </label>
+          </div>
+          <div>
+            <label for="zh">
+              <input id="zh" type="radio" value="zh" name="lang" value="zh" (change)="applyFilters()" formControlName="lang" />
+              <span>简体中文</span>
+            </label>
+          </div>
+          <div>
+            <label for="jp">
+              <input id="jp" type="radio" value="jp" name="lang" value="jp" (change)="applyFilters()" formControlName="lang" />
+              <span>日本語</span>
+            </label>
+          </div>
+          <div>
+            <label for="ko">
+              <input id="ko" type="radio" value="ko" name="lang" value="ko" (change)="applyFilters()" formControlName="lang" />
+              <span>한국어</span>
+            </label>
+          </div>
+        </form>
+    </div>
+    <br>
+    <div class="content-div">
+      <div id="filters-container" class="flex-container">
+        <div class="flex-item filter">
+          <h3 class="font-platforms coustard">Platforms</h3>
+          <ng-multiselect-dropdown
+          [settings]="dropdownSettings"
+          [placeholder]="'Select platform...'"
+          [data]="dropdownListPlatforms"
+          [(ngModel)]="selectedItemsPlatforms"
+          (onSelect)="applyFilters()"
+          (onDeSelect)="applyFilters()"
+          ></ng-multiselect-dropdown>
+        </div>
+        <div class="flex-item filter">
+          <h3 class="font-information coustard">Information</h3>
+          <ng-multiselect-dropdown
+          [settings]="dropdownSettings"
+          [placeholder]="'Select info...'"
+          [data]="dropdownListInformation"
+          [(ngModel)]="selectedItemsInformation"
+          (onSelect)="applyFilters()"
+          (onDeSelect)="applyFilters()"
+          ></ng-multiselect-dropdown>
+        </div>
+        <div class="flex-item filter">
+          <h3 class="font-tools coustard">Tools</h3>
+          <ng-multiselect-dropdown
+          [settings]="dropdownSettings"
+          [placeholder]="'Select tools...'"
+          [data]="dropdownListTools"
+          [(ngModel)]="selectedItemsTools"
+          (onSelect)="applyFilters()"
+          (onDeSelect)="applyFilters()"
+          ></ng-multiselect-dropdown>
+        </div>
+      </div>
+      <div class="font-prose centered table">
+        <label class="switch" style="margin-right: 10px;">
+          <input (change)="filterToggle($event)" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <span class="toggle-label">Only show listings that match all selected filters within each category</span>
+      </div>
+      <div class="font-prose">
+        <button class="button" (click)="resetFilters()">Reset Filters</button>
+      </div>
+    </div>
+  </div>
+  <div id="heading-bottom"></div>
+</div>
+  
+<div class="results constrained">
+  <div class="listing max-width" *ngFor="let p of projects">
+    <div class="content-div">
+      <div class="flex-container-inline name-container">
+        <div *ngIf="p.logo !== undefined && p.logo !== ''" class="flex-item">
+        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" nofollow>
+          <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
+        </a>
+        <ng-template #noLink>
+          <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
+        </ng-template>
+        </div>
+        <div *ngIf="p.logoStyle === 'icon' || (p.logo === undefined || p.logo === '')" class="flex-item">
+        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" nofollow>
+          <span class="title">{{p.name}}</span>
+        </a>
+        <ng-template #noLink>
+          <span class="title">{{p.name}}</span>
+        </ng-template>
+        </div>
+      </div>
+      <div class="description">
+        <div class="table max-width" style="padding: 10px 0px;">
+          <span class="description" style="display: table-cell; text-align: center; vertical-align: middle;">{{p.description}}</span>
+        </div>
+      </div>
+      <div class="tags">
+        <span class="tag information hover" *ngFor="let c of p.information" (click)="singleInformationFilter(c)">{{c}}</span>
+        <span class="tag tools hover" *ngFor="let c of p.tools" (click)="singleFeatureFilter(c)">{{c}}</span>
+      </div>
+      <div class="flex-container link-button">
+        <div *ngIf="p.site !== undefined && p.site !== ''" class="link-button site" tabindex="0">
+          <a href="{{p.site}}" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/link.png" alt="Visit website" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.android !== undefined && p.android !== ''" class="link-button android" tabindex="0">
+          <a href="{{p.android}}" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/android.png" alt="Download on Google Play" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.ios !== undefined && p.ios !== ''" class="link-button ios" tabindex="0">
+          <a href="{{p.ios}}" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/apple.png" alt="Download on the App Store" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.facebook !== undefined && p.facebook !== ''" class="link-button facebook" tabindex="0">
+          <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/facebook.png" alt="Facebook profile" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.twitter !== undefined && p.twitter !== ''" class="link-button twitter" tabindex="0">
+          <a href="https://twitter.com/{{p.twitter}}" target="_blank" nofollow>
+            <div>
+            <img class="link-button" src="assets/images/links/twitter.png" alt="Twitter profile" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.instagram !== undefined && p.instagram !== ''" class="link-button instagram" tabindex="0">
+          <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/instagram.png" alt="Instagram profile" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.discord !== undefined && p.discord !== ''" class="link-button discord" tabindex="0">
+          <a href="https://discord.gg/{{p.discord}}" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/discord.png" alt="Discord invite" width="16px">
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
