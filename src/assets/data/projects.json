@@ -687,20 +687,19 @@
     "instagram": "nookplaza",
     "twitter": "nook_plaza",
     "information": [
-      "items",
-      "villagers",
-      "villager gifts",
       "art",
       "critters",
-      "fossils"
+      "fossils",
+      "gifts",
+      "items",
+      "villagers"
     ],
     "tools": [
       "checklist",
-      "gifts",
+      "fake art",
       "island rating",
       "simulator",
-      "weather",
-      "fake art detector"
+      "weather"
     ]
   },
   {
