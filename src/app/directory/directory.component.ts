@@ -210,10 +210,10 @@ export class DirectoryComponent implements OnInit {
   }
 
   shuffle(arr) {
-    for (var i = 0; i < arr.length - 1; i++) {
-        var j = i + Math.floor(Math.random() * (arr.length - i));
+    for (let i = 0; i < arr.length - 1; i++) {
+        const j = i + Math.floor(Math.random() * (arr.length - i));
 
-        var temp = arr[j];
+        const temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;
     }
@@ -221,7 +221,7 @@ export class DirectoryComponent implements OnInit {
   }
 
   sortProjects() {
-    if(this.sorted) {
+    if (this.sorted) {
       this.filterData.sort(this.sortZToA);
       this.sorted = false;
     } else {
@@ -234,7 +234,7 @@ export class DirectoryComponent implements OnInit {
   sortAToZ(a, b) {
     const name1 = a.name.toUpperCase();
     const name2 = b.name.toUpperCase();
-  
+
     let comparison = 0;
     if (name1 > name2) {
       comparison = 1;
@@ -247,7 +247,7 @@ export class DirectoryComponent implements OnInit {
   sortZToA(a, b) {
     const name1 = a.name.toUpperCase();
     const name2 = b.name.toUpperCase();
-  
+
     let comparison = 0;
     if (name1 < name2) {
       comparison = 1;
@@ -256,6 +256,6 @@ export class DirectoryComponent implements OnInit {
     }
     return comparison;
   }
-  
+
 
 }
