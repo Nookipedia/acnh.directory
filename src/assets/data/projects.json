@@ -65,6 +65,24 @@
     ]
   },
   {
+    "name": "AC Miles",
+    "description": "Achievement visualizer for Animal Crossing: New Horizons",
+    "languages": ["en"],
+    "logo": "",
+    "logoStyle": "",
+    "site": "https://acmiles.com/",
+    "android": "",
+    "ios": "",
+    "discord": "",
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "information": [
+      "gameplay"
+    ],
+    "tools": []
+  },
+  {
     "name": "ACNH API",
     "description": "A free RESTful API for critters, fossils, art, music, furniture and villagers from Animal Crossing: New Horizons",
     "languages": ["en"],
@@ -515,6 +533,29 @@
     ],
     "tools": [
       "marketplace"
+    ]
+  },
+  {
+    "name": "Nook DB.io",
+    "description": "Comprehensive item database with filtering, checklists, stalk market calculator, a music player, and more",
+    "languages": ["en", "es", "de", "fr", "it", "jp", "ko", "ru", "zh"],
+    "logo": "nook-db-io.png",
+    "logoStyle": "icon",
+    "site": "https://nookdb.io/",
+    "android": "https://play.google.com/store/apps/details?id=io.nookdb.android",
+    "ios": "",
+    "discord": "",
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "information": [
+      "flowers",
+      "items"
+    ],
+    "tools": [
+      "checklist",
+      "music",
+      "turnips"
     ]
   },
   {
