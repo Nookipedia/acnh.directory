@@ -416,7 +416,7 @@
   {
     "name": "DodoCodes.com",
     "description": "All in one ACNH Community with Dodo codes, designs, auctions, giveaways, articles, dreams, user ratings, wishlists, catalogs, and more",
-    "languages": ["en"],
+    "languages": ["en", "de", "fr", "zh"],
     "logo": "dodocodescom.png",
     "logoStyle": "banner",
     "logoBorder": true,
