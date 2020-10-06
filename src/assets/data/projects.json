@@ -518,6 +518,29 @@
     ]
   },
   {
+    "name": "Nook DB.io",
+    "description": "Comprehensive item database with filtering, checklists, stalk market calculator, a music player, and more",
+    "languages": ["en", "es", "de", "fr", "it", "jp", "ko", "ru", "zh"],
+    "logo": "nook-db-io.png",
+    "logoStyle": "icon",
+    "site": "https://nookdb.io/",
+    "android": "https://play.google.com/store/apps/details?id=io.nookdb.android",
+    "ios": "",
+    "discord": "",
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "information": [
+      "flowers",
+      "items"
+    ],
+    "tools": [
+      "checklist",
+      "music",
+      "turnips"
+    ]
+  },
+  {
     "name": "Nook Exchange",
     "description": "Item tracker and marketplace",
     "languages": ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
