@@ -376,8 +376,8 @@
   {
     "name": "CatalogScanner",
     "description": "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos.",
-    "languages": ["de", "en", "es", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
-    "logo": "catalogscanner.png",
+    "languages": ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
+    "logo": "catalog-scanner.png",
     "logoStyle": "icon",
     "site": "https://nook.lol/",
     "android": "",
@@ -385,9 +385,14 @@
     "discord": "",
     "facebook": "",
     "instagram": "",
-    "twitter": "https://twitter.com/catalogscanner",
-    "information": ["critters", "items"],
-    "tools": ["api"]
+    "twitter": "catalogscanner",
+    "information": [
+      "critters",
+      "items"
+    ],
+    "tools": [
+      "api"
+    ]
   },
   {
     "name": "Custom Crossing",
