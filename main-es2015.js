@@ -748,7 +748,7 @@ const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "catalogscanner",
-        git: "",
+        git: "https://github.com/EhsanKia/CatalogScanner",
         information: [
             "critters",
             "items"

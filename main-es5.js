@@ -840,7 +840,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       facebook: "",
       instagram: "",
       twitter: "catalogscanner",
-      git: "",
+      git: "https://github.com/EhsanKia/CatalogScanner",
       information: ["critters", "items"],
       tools: ["api"]
     }, {
