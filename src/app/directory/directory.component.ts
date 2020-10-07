@@ -1,9 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { HttpErrorResponse } from '@angular/common/http';
 import { FormGroup, FormControl } from '@angular/forms';
 import { IDropdownSettings } from 'ng-multiselect-dropdown';
-import { environment } from '../../environments/environment';
+import { projectsData } from '../data/project-data';
 
 @Component({
   selector: 'app-directory',
@@ -11,7 +9,7 @@ import { environment } from '../../environments/environment';
   styleUrls: ['./directory.component.css']
 })
 export class DirectoryComponent implements OnInit {
-  constructor(private httpService: HttpClient){ }
+  constructor(){ }
 
   // Set up dropdown filter variables:
   dropdownSettings: IDropdownSettings;
@@ -26,26 +24,12 @@ export class DirectoryComponent implements OnInit {
   selectedItemsInformation = [];
   selectedItemsTools = [];
 
-  projects = [];
-  filterData = [];
+  projects = projectsData;
+  filterData = projectsData;
   ifFilterMeetsAll = false;
   sorted = false;
 
   ngOnInit() {
-    this.httpService.get(environment.projectData).subscribe(
-      data => {
-        // Set projects and filterData arrays to project data:
-        const shuffledData = this.shuffle(data as string []);
-        this.projects = shuffledData;
-        this.filterData = shuffledData;
-
-        this.applyFilters();
-      },
-      (err: HttpErrorResponse) => {
-        console.log (err.message);
-      }
-    );
-
     // Set default value to English and filter:
     this.langForm.patchValue({ lang: 'en', tc: true });
 

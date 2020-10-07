@@ -19,7 +19,7 @@ ACNH.Directory is a community-driven resource—and you can contribute! You can 
     * This includes guides for hacking Switches; duping items; or amiibo spoofing.
 
 ### Pull requests
-To make an addition or other change: fork the repository under your username. Project data can be found and modified at [`src/assets/data/projects.json`](src/assets/data/projects.json); logos are stored in [`src/assets/images/logos/`](src/assets/images/logos/) (filenames formatted all lowercase with hypens separating words).
+To make an addition or other change: fork the repository under your username. Project data can be found and modified at [`src/app/data/project-data.ts`](src/app/data/project-data.ts); logos are stored in [`src/assets/images/logos/`](src/assets/images/logos/) (filenames formatted all lowercase with hypens separating words).
 
 There are two primary ways to make changes in your fork:
 * Clone the repository to your local, make your changes, and commit + push them back to GitHub. Refer to [this guide](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop) for help.
