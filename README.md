@@ -19,7 +19,7 @@ ACNH.Directory is a community-driven resource—and you can contribute! You can 
     * This includes guides for hacking Switches; duping items; or amiibo spoofing.
 
 ### Pull requests
-To make an addition or other change: fork the repository under your username. Project data can be found and modified at [`src/assets/data/projects.json`](src/assets/data/projects.json); logos are stored in [`src/assets/images/logos/`](src/assets/images/logos/) (filenames formatted all lowercase with hypens separating words).
+To make an addition or other change: fork the repository under your username. Project data can be found and modified at [`src/app/data/project-data.ts`](src/app/data/project-data.ts); logos are stored in [`src/assets/images/logos/`](src/assets/images/logos/) (filenames formatted all lowercase with hypens separating words).
 
 There are two primary ways to make changes in your fork:
 * Clone the repository to your local, make your changes, and commit + push them back to GitHub. Refer to [this guide](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop) for help.
@@ -30,27 +30,28 @@ Once your changes are ready, open a pull request.
 If you need help, don't hesitate to reach out. Feel free to open an issue for help, or you can reach Kevin directly (see contact details on [profile](https://github.com/KevinPayravi)).
 
 ### Format
-Site listings are stored in `/src/app/assets/data/projects.json` in alphabetical order in the following format:
-```
+Site listings are stored in `/src/app/data/project-data.ts` in alphabetical order in the following format:
+```ts
   {
-    "name": "The Best ACNH Guide",
-    "description": "Information on villagers, critters, and items.",
-    "languages": ["en", "jp"],
-    "logo": "best-acnh-guide.png",
-    "logoStyle": "banner",
-    "site": "https://example.com/",
-    "android": "https://play.google.com/store",
-    "ios": "https://www.apple.com/app-store/",
-    "discord": "abcd123",
-    "facebook": "bestacnhguide",
-    "instagram": "bestacnhguide",
-    "twitter": "bestacnhguide",
-    "information": [
+    name: "The Best ACNH Guide",
+    description: "Information on villagers, critters, and items.",
+    languages: ["en", "jp"],
+    logo: "best-acnh-guide.png",
+    logoStyle: "banner",
+    site: "https://example.com/",
+    android: "https://play.google.com/store",
+    ios: "https://www.apple.com/app-store/",
+    discord: "abcd123",
+    facebook: "bestacnhguide",
+    instagram: "bestacnhguide",
+    twitter: "bestacnhguide",
+    git: "https://github.com/some/repo_url/",
+    information: [
       "critters",
       "items",
       "villagers"
     ],
-    "tools": [
+    tools: [
       "checklist"
     ]
   }
@@ -70,6 +71,7 @@ Explanation for each field:
 * `facebook`: Facebook page/group, if applicable. Only provide the handle, not the full URL.
 * `instagram`: Instagram profile, if applicable. Only provide the handle, not the full URL.
 * `twitter`: Twitter profile, if applicable. Only provide the handle, not the full URL.
+* `git`: Link to the git repository, if applicable.
 * `information`: An alphabetical array of information the resource provides. Can be `art`, `critters`, `flowers`, `fossils`, `gameplay`, `gifts`, `items`, `villagers`.
   * `gameplay` is a sort of catch-all for guides that provide comprehensive gameplay coverage, or substantial material not covered by the other categories.
 * `tools`: An alphabetical array of tools the resource provides. Can be `api`, `checklist`, `design sharing`, `dreams`, `island rating`, `marketplace`, `queueing`, `simulator`, `town tunes`, `turnips`, `weather`, `wiki`.
