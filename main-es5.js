@@ -449,6 +449,647 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
+  "./src/app/data/project-data.ts":
+  /*!**************************************!*\
+    !*** ./src/app/data/project-data.ts ***!
+    \**************************************/
+
+  /*! exports provided: projectsData */
+
+  /***/
+  function srcAppDataProjectDataTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "projectsData", function () {
+      return projectsData;
+    });
+
+    var projectsData = [{
+      name: "AC Community (JP)",
+      description: "あつまれ どうぶつの森 コミュニティ",
+      languages: ["jp"],
+      logo: "",
+      logoStyle: "",
+      site: "",
+      android: "",
+      ios: "https://apps.apple.com/jp/app/id1507394206",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters", "fossils", "items"],
+      tools: ["turnips"]
+    }, {
+      name: "AC Community (KO)",
+      description: "모여봐요 동물의 숲 커뮤니티",
+      languages: ["ko"],
+      logo: "",
+      logoStyle: "",
+      site: "",
+      android: "",
+      ios: "https://apps.apple.com/kr/app/id1507394206",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters", "fossils"],
+      tools: ["turnips"]
+    }, {
+      name: "AC Helper",
+      description: "Companion app for catching critters, logging critters and items, and turnip predictions",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
+      logo: "ac-helper.png",
+      logoStyle: "icon",
+      site: "",
+      android: "",
+      ios: "https://apps.apple.com/us/app/id1508764244",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters", "fossils"],
+      tools: ["music", "turnips"]
+    }, {
+      name: "AC Miles",
+      description: "Achievement visualizer for Animal Crossing: New Horizons",
+      languages: ["en"],
+      logo: "",
+      logoStyle: "",
+      site: "https://acmiles.com/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["gameplay"],
+      tools: []
+    }, {
+      name: "ACNH API",
+      description: "A free RESTful API for critters, fossils, art, music, furniture and villagers from Animal Crossing: New Horizons",
+      languages: ["en"],
+      logo: "",
+      logoStyle: "",
+      site: "https://acnhapi.com/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["api"]
+    }, {
+      name: "ACNH Database",
+      description: "List of critters, items, villagers, recipes, and more",
+      languages: ["en"],
+      logo: "acnh-database.png",
+      logoStyle: "banner",
+      site: "https://www.acnhdatabase.me/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["music"]
+    }, {
+      name: "ACNH Data Spreadsheet",
+      description: "A comprehensive Google spreadsheet documenting items, villagers, achievements, and much more",
+      languages: ["en"],
+      logo: "",
+      logoStyle: "",
+      site: "https://tinyurl.com/acnh-sheet",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: []
+    }, {
+      name: "ACNH Flowers",
+      description: "A simple ACNH guide explaining how to plant flowers to maximize crossbreeding for hybrid flowers and unique colors",
+      languages: ["en"],
+      logo: "acnh-flowers.png",
+      logoStyle: "banner",
+      site: "https://newhorizons.florist/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["flowers"],
+      tools: []
+    }, {
+      name: "ACNH.Guide",
+      description: "User-friendly display of data for bugs, fish, villagers, items, and more",
+      languages: ["en"],
+      logo: "acnh-guide.png",
+      logoStyle: "icon",
+      site: "https://acnh.guide/",
+      android: "https://play.google.com/store/apps/details?id=dev.genesy.animalcrossingnhguide",
+      ios: "https://apps.apple.com/us/app/id1504317399",
+      discord: "5vwumWT",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["checklist", "turnips"]
+    }, {
+      name: "ACNH Life",
+      description: "Mobile app with critter info, item checklists, turnip calculator, and more",
+      languages: ["en"],
+      logo: "acnh-life.png",
+      logoStyle: "banner",
+      logoBorder: true,
+      site: "",
+      android: "https://play.google.com/store/apps/details?id=com.hangodjin.animal_crossing_guide",
+      ios: "https://apps.apple.com/us/app/acnh-life/id1504842752",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "items", "villagers"],
+      tools: ["checklist", "turnips"]
+    }, {
+      name: "ACNH Travel Guide",
+      description: "New Horizons companion app, providing you with information and progress tracking",
+      languages: ["en"],
+      logo: "acnh-travel-guide.png",
+      logoStyle: "icon",
+      site: "",
+      android: "",
+      ios: "https://apps.apple.com/us/app/acnh-travel-guide/id1502818559",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["checklist", "turnips"]
+    }, {
+      name: "Almanook",
+      description: "Companion site with info on collectibles, villagers, and more",
+      languages: ["en"],
+      logo: "almanook.png",
+      logoStyle: "banner",
+      site: "https://www.almanook.me/home/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: []
+    }, {
+      name: "Animal Crossing Pattern Tool",
+      description: "Pattern designer compatible with NL, HHD, and NH",
+      languages: ["en"],
+      logo: "ac-pattern-tool.png",
+      logoStyle: "icon",
+      site: "https://acpatterns.com/",
+      android: "",
+      ios: "",
+      discord: "9rGkZNk",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: [],
+      tools: ["design sharing"]
+    }, {
+      name: "Animal Crossing Wiki",
+      description: "Animal-Crossing-Wiki von AC-Booster.net",
+      languages: ["de"],
+      logo: "animal-crossing-wiki-de.png",
+      logoStyle: "",
+      site: "https://animalcrossingwiki.de/",
+      android: "",
+      ios: "",
+      discord: "rkUDD4F",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "gameplay", "gifts", "items", "villagers"],
+      tools: ["wiki"]
+    }, {
+      name: "Animal Crossing World",
+      description: "Blogs and guides about the Animal Crossing series",
+      languages: ["en"],
+      logo: "animal-crossing-world.png",
+      logoStyle: "",
+      site: "https://animalcrossingworld.com/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "AnimalCrossWorld",
+      instagram: "animalcrossing_world",
+      twitter: "ACWorldBlog",
+      information: ["gameplay"],
+      tools: []
+    }, {
+      name: "cestislife's Visual Guides",
+      description: "A compilation of visual guides made by cestislife",
+      languages: ["en"],
+      logo: "cestislife.png",
+      logoStyle: "icon",
+      site: "https://cestislife.github.io/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters", "flowers", "gameplay"],
+      tools: []
+    }, {
+      name: "Completionista",
+      description: "Learn about and track museum collectibles, flowers, albums, recipes, and more",
+      languages: ["en"],
+      logo: "completionista.png",
+      logoStyle: "icon",
+      site: "https://completionista.com/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["checklist"]
+    }, {
+      name: "CatalogScanner",
+      description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos.",
+      languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
+      logo: "catalog-scanner.png",
+      logoStyle: "icon",
+      site: "https://nook.lol/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "catalogscanner",
+      information: ["critters", "items"],
+      tools: ["api"]
+    }, {
+      name: "Custom Crossing",
+      description: "Pattern and design sharing",
+      languages: ["en"],
+      logo: "custom-crossing.png",
+      logoStyle: "banner",
+      site: "https://customcrossing.com/",
+      android: "",
+      ios: "",
+      discord: "aYQ3yXw",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: [],
+      tools: ["design sharing"]
+    }, {
+      name: "DodoCodes.com",
+      description: "All in one ACNH Community with Dodo codes, designs, auctions, giveaways, articles, dreams, user ratings, wishlists, catalogs, and more",
+      languages: ["en", "de", "fr", "zh"],
+      logo: "dodocodescom.png",
+      logoStyle: "banner",
+      logoBorder: true,
+      site: "https://dodocodes.com",
+      android: "https://play.google.com/store/apps/details?id=com.dodocodes.mobile",
+      ios: "https://apps.apple.com/us/app/dodocodes/id1512463462",
+      discord: "dodocodes",
+      facebook: "dodocodes",
+      instagram: "dodocodes.app",
+      twitter: "dodo_codes",
+      information: [],
+      tools: ["design sharing", "dreams", "giveaways", "marketplace", "queueing"]
+    }, {
+      name: "FANDOM Animal Crossing Wiki",
+      description: "FANDOM Animal Crossing wiki that anyone can contribute to",
+      languages: ["en"],
+      logo: "acw.png",
+      logoStyle: "banner",
+      site: "https://animalcrossing.fandom.com/wiki/Animal_Crossing_Wiki",
+      android: "",
+      ios: "",
+      discord: "5vDwcy",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "gameplay", "items", "villagers"],
+      tools: ["wiki"]
+    }, {
+      name: "Garden Science Flower Breeding Simulator",
+      description: "A fancy tool to simulate flower breeding and pattern performance",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+      logo: "garden-science.png",
+      logoStyle: "icon",
+      site: "https://gardenscience.ac/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["flowers"],
+      tools: ["simulator"]
+    }, {
+      name: "Happy Island Designer",
+      description: "Draw terrain and paths, place buildings, and trace your in-game map",
+      languages: ["en"],
+      logo: "",
+      logoStyle: "",
+      site: "https://eugeneration.github.io/HappyIslandDesigner/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: [],
+      tools: ["simulator"]
+    }, {
+      name: "icebr's AC:NH Helper",
+      description: "Fish and bugs that are available for catching in AC:NH depend on location, time and current month",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+      logo: "icebr.png",
+      logoStyle: "icon",
+      site: "https://icebr.art/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters"],
+      tools: ["checklist"]
+    }, {
+      name: "MeteoNook",
+      description: "Predict your island's weather patterns, including exact times for meteor showers, rainbows and the aurora borealis",
+      languages: ["en"],
+      logo: "",
+      logoStyle: "",
+      site: "https://wuffs.org/acnh/weather/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: [],
+      tools: ["weather"]
+    }, {
+      name: "Nookazon",
+      description: "Buy and sell Animal Crossing: New Horizons items",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+      logo: "nookazon.svg",
+      logoStyle: "banner",
+      site: "https://nookazon.com/",
+      android: "",
+      ios: "",
+      discord: "nookazon",
+      facebook: "nookazon",
+      instagram: "nookazon",
+      twitter: "nookazon",
+      information: ["items"],
+      tools: ["marketplace"]
+    }, {
+      name: "Nook DB.io",
+      description: "Comprehensive item database with filtering, checklists, stalk market calculator, a music player, and more",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ko", "ru", "zh"],
+      logo: "nook-db-io.png",
+      logoStyle: "icon",
+      site: "https://nookdb.io/",
+      android: "https://play.google.com/store/apps/details?id=io.nookdb.android",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["flowers", "items"],
+      tools: ["checklist", "music", "turnips"]
+    }, {
+      name: "Nook Exchange",
+      description: "Item tracker and marketplace",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+      logo: "nook-exchange.png",
+      logoStyle: "banner",
+      site: "https://nook.exchange/",
+      android: "",
+      ios: "",
+      discord: "9sh66CX",
+      facebook: "",
+      instagram: "",
+      twitter: "nookexchange",
+      information: ["items"],
+      tools: ["marketplace"]
+    }, {
+      name: "Nookipedia",
+      description: "The independent Animal Crossing wiki, covering the series along with an API service",
+      languages: ["en"],
+      logo: "nookipedia.png",
+      logoStyle: "banner",
+      site: "https://nookipedia.com/wiki/Main_Page",
+      android: "",
+      ios: "",
+      discord: "5Sfg3CT",
+      facebook: "nookipedia",
+      instagram: "nookipedia",
+      twitter: "nookipedia",
+      information: ["art", "critters", "fossils", "gameplay", "gifts", "items", "villagers"],
+      tools: ["api", "wiki"]
+    }, {
+      name: "Nook Knack",
+      description: "Catch it. Sell it. Track it.",
+      languages: ["en"],
+      logo: "nook-knack.png",
+      logoStyle: "icon",
+      site: "",
+      android: "https://play.google.com/store/apps/details?id=com.digiwrecks.nookknack",
+      ios: "https://apps.apple.com/us/app/nook-knack-acnh-pricing/id1505749434",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["critters"],
+      tools: ["checklist"]
+    }, {
+      name: "Nook Market",
+      description: "Buy and sell items and villagers",
+      languages: ["en"],
+      logo: "nook-market.png",
+      logoStyle: "icon",
+      site: "https://nook.market/",
+      android: "",
+      ios: "",
+      discord: "NS5yfKS",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["items"],
+      tools: ["marketplace"]
+    }, {
+      name: "Nooknet",
+      description: "Comprehensive services, including checklists, design sharing, dream codes, tune creation, turnip calculator, and more",
+      languages: ["en"],
+      logo: "nooknet.png",
+      logoStyle: "banner",
+      site: "https://nooknet.net/",
+      android: "",
+      ios: "",
+      discord: "RwNrqmH",
+      facebook: "NookNetNet",
+      instagram: "nooknetnet",
+      twitter: "nooknetnet",
+      information: ["art", "flowers", "gameplay", "villagers"],
+      tools: ["checklist", "design sharing", "dreams", "town tunes", "turnips", "queueing"]
+    }, {
+      name: "Nook Plaza",
+      description: "Item catalog, wishlists, villager gifts, island rating calc, weather forecasting, fake art detector, and more!",
+      languages: ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
+      logo: "nook-plaza.png",
+      logoStyle: "banner",
+      site: "https://nookplaza.net/",
+      android: "",
+      ios: "",
+      discord: "SppmqEk",
+      facebook: "",
+      instagram: "nookplaza",
+      twitter: "nook_plaza",
+      information: ["art", "critters", "fossils", "gifts", "items", "villagers"],
+      tools: ["checklist", "fake art", "island rating", "simulator", "weather"]
+    }, {
+      name: "Nooks Guide",
+      description: "List of critters, items, villagers, recipes, and more",
+      languages: ["en"],
+      logo: "nooks-guide.jpg",
+      logoStyle: "icon",
+      site: "https://nooksguide.com/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "villagers"],
+      tools: ["checklist", "design sharing", "dreams", "turnips", "queueing"]
+    }, {
+      name: "Nook's Island",
+      description: "Browse from 20,000+ user-submitted custom designs, or submit your own",
+      languages: ["en"],
+      logo: "nooks-island.png",
+      logoStyle: "banner",
+      site: "https://nooksisland.com/designs",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "nooks.island",
+      twitter: "NooksIsland",
+      information: ["critters"],
+      tools: ["design sharing", "dreams", "marketplace"]
+    }, {
+      name: "Stalks.io",
+      description: "Get stalk price predictions, forecasts and advice for you and your friends' islands",
+      languages: ["en"],
+      logo: "stalks-io.png",
+      logoStyle: "banner",
+      site: "https://stalks.io/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "stalksio",
+      information: [],
+      tools: ["turnips"]
+    }, {
+      name: "Tanuki Forest",
+      description: "Database of items, critters, clothing, and villagers",
+      languages: ["en"],
+      logo: "tanuki-forest.gif",
+      logoStyle: "banner",
+      site: "https://www.tanukiforest.com",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "",
+      twitter: "",
+      information: ["art", "critters", "fossils", "items", "villages"],
+      tools: []
+    }, {
+      name: "Turnip.Exchange",
+      description: "Queue for turnip selling and more",
+      languages: ["en"],
+      logo: "turnip-exchange.png",
+      logoStyle: "banner",
+      site: "https://turnip.exchange/",
+      android: "",
+      ios: "",
+      discord: "warpworld",
+      facebook: "",
+      instagram: "",
+      twitter: "WarpWorld",
+      information: [],
+      tools: ["queueing"]
+    }, {
+      name: "VillagerDB",
+      description: "Database of items and villagers, with a wishlist maker",
+      languages: ["en"],
+      logo: "villagerdb.jpg",
+      logoStyle: "icon",
+      site: "https://villagerdb.com/",
+      android: "",
+      ios: "",
+      discord: "n4527pm",
+      facebook: "",
+      instagram: "",
+      twitter: "villagerdb",
+      information: ["art", "critters", "fossils", "items", "villagers"],
+      tools: ["checklist"]
+    }, {
+      name: "VillagersClub",
+      description: "Villagers, clothing, and furniture info",
+      languages: ["en"],
+      logo: "villagers-club.png",
+      logoStyle: "banner",
+      site: "https://villagers.club/",
+      android: "",
+      ios: "",
+      discord: "dr89DQZ",
+      facebook: "VillagersClub",
+      instagram: "villagersclub",
+      twitter: "VillagersClub",
+      information: ["critters", "items", "villagers"],
+      tools: ["checklist", "marketplace"]
+    }, {
+      name: "Yue's ACNH Guides",
+      description: "Visual guides made by Yue, available in multiple languages",
+      languages: ["en", "de", "jp", "zh"],
+      logo: "yue's-acnh-guides.png",
+      logoStyle: "",
+      site: "https://yuexr.github.io/acnh/",
+      android: "",
+      ios: "",
+      discord: "",
+      facebook: "",
+      instagram: "yuecrossing",
+      twitter: "yuecrossing",
+      information: ["flowers", "gameplay"],
+      tools: []
+    }];
+    /***/
+  },
+
+  /***/
   "./src/app/directory/directory.component.ts":
   /*!**************************************************!*\
     !*** ./src/app/directory/directory.component.ts ***!
@@ -482,25 +1123,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _environments_environment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ../../environments/environment */
-    "./src/environments/environment.ts");
+    var _data_project_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../data/project-data */
+    "./src/app/data/project-data.ts");
     /* harmony import */
 
 
-    var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
-    /* harmony import */
-
-
-    var ng_multiselect_dropdown__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var ng_multiselect_dropdown__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ng-multiselect-dropdown */
     "./node_modules/ng-multiselect-dropdown/__ivy_ngcc__/fesm2015/ng-multiselect-dropdown.js");
     /* harmony import */
 
 
-    var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! @angular/common */
     "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 
@@ -1005,10 +1640,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     var DirectoryComponent = /*#__PURE__*/function () {
-      function DirectoryComponent(httpService) {
+      function DirectoryComponent() {
         _classCallCheck(this, DirectoryComponent);
 
-        this.httpService = httpService;
         this.langForm = new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroup"]({
           lang: new _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControl"]()
         });
@@ -1018,8 +1652,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         this.selectedItemsPlatforms = [];
         this.selectedItemsInformation = [];
         this.selectedItemsTools = [];
-        this.projects = [];
-        this.filterData = [];
+        this.shuffledData = this.shuffle(_data_project_data__WEBPACK_IMPORTED_MODULE_2__["projectsData"]);
+        this.projects = this.shuffledData;
+        this.filterData = this.shuffledData;
         this.ifFilterMeetsAll = false;
         this.sorted = false;
       }
@@ -1027,20 +1662,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(DirectoryComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this = this;
-
-          this.httpService.get(_environments_environment__WEBPACK_IMPORTED_MODULE_2__["environment"].projectData).subscribe(function (data) {
-            // Set projects and filterData arrays to project data:
-            var shuffledData = _this.shuffle(data);
-
-            _this.projects = shuffledData;
-            _this.filterData = shuffledData;
-
-            _this.applyFilters();
-          }, function (err) {
-            console.log(err.message);
-          }); // Set default value to English and filter:
-
+          // Set default value to English and filter:
           this.langForm.patchValue({
             lang: 'en',
             tc: true
@@ -1152,7 +1774,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "applyFilters",
         value: function applyFilters() {
-          var _this2 = this;
+          var _this = this;
 
           var selectedItemsPlatforms = [];
 
@@ -1217,16 +1839,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               platforms.push('ios');
             }
 
-            var totalLength = _this2.selectedItemsPlatforms.length + _this2.selectedItemsInformation.length + _this2.selectedItemsTools.length;
+            var totalLength = _this.selectedItemsPlatforms.length + _this.selectedItemsInformation.length + _this.selectedItemsTools.length;
 
-            if (_this2.ifFilterMeetsAll) {
+            if (_this.ifFilterMeetsAll) {
               return (!totalLength || (!selectedItemsPlatforms.length || selectedItemsPlatforms.every(function (p) {
                 return platforms.includes(p);
               })) && (!selectedItemsInformation.length || selectedItemsInformation.every(function (c) {
                 return item.information.includes(c);
               })) && (!selectedItemsTools.length || selectedItemsTools.every(function (c) {
                 return item.tools.includes(c);
-              }))) && item.languages.includes(_this2.langForm.get('lang').value);
+              }))) && item.languages.includes(_this.langForm.get('lang').value);
             } else {
               return (!totalLength || (!selectedItemsPlatforms.length || selectedItemsPlatforms.some(function (p) {
                 return platforms.includes(p);
@@ -1234,20 +1856,46 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 return item.information.includes(c);
               })) && (!selectedItemsTools.length || selectedItemsTools.some(function (c) {
                 return item.tools.includes(c);
-              }))) && item.languages.includes(_this2.langForm.get('lang').value);
+              }))) && item.languages.includes(_this.langForm.get('lang').value);
             }
           });
         }
       }, {
         key: "singleInformationFilter",
         value: function singleInformationFilter(selection) {
-          var _this3 = this;
+          var _this2 = this;
 
           this.selectedItemsPlatforms = [];
           this.selectedItemsInformation = [this.dropdownListInformation.filter(function (obj) {
             return obj.item_id === selection;
           })[0]];
           this.selectedItemsTools = [];
+          var categories = [selection];
+          this.projects = this.filterData.filter(function (item) {
+            var cats = item.information.concat(item.tools);
+
+            if (_this2.ifFilterMeetsAll) {
+              return (categories.length === 0 || categories.every(function (c) {
+                return cats.includes(c);
+              })) && item.languages.includes(_this2.langForm.get('lang').value);
+            } else {
+              return (categories.length === 0 || categories.some(function (c) {
+                return cats.indexOf(c) >= 0;
+              })) && item.languages.includes(_this2.langForm.get('lang').value);
+            }
+          });
+          this.scrollToTop();
+        }
+      }, {
+        key: "singleFeatureFilter",
+        value: function singleFeatureFilter(selection) {
+          var _this3 = this;
+
+          this.selectedItemsPlatforms = [];
+          this.selectedItemsInformation = [];
+          this.selectedItemsTools = [this.dropdownListTools.filter(function (obj) {
+            return obj.item_id === selection;
+          })[0]];
           var categories = [selection];
           this.projects = this.filterData.filter(function (item) {
             var cats = item.information.concat(item.tools);
@@ -1260,32 +1908,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               return (categories.length === 0 || categories.some(function (c) {
                 return cats.indexOf(c) >= 0;
               })) && item.languages.includes(_this3.langForm.get('lang').value);
-            }
-          });
-          this.scrollToTop();
-        }
-      }, {
-        key: "singleFeatureFilter",
-        value: function singleFeatureFilter(selection) {
-          var _this4 = this;
-
-          this.selectedItemsPlatforms = [];
-          this.selectedItemsInformation = [];
-          this.selectedItemsTools = [this.dropdownListTools.filter(function (obj) {
-            return obj.item_id === selection;
-          })[0]];
-          var categories = [selection];
-          this.projects = this.filterData.filter(function (item) {
-            var cats = item.information.concat(item.tools);
-
-            if (_this4.ifFilterMeetsAll) {
-              return (categories.length === 0 || categories.every(function (c) {
-                return cats.includes(c);
-              })) && item.languages.includes(_this4.langForm.get('lang').value);
-            } else {
-              return (categories.length === 0 || categories.some(function (c) {
-                return cats.indexOf(c) >= 0;
-              })) && item.languages.includes(_this4.langForm.get('lang').value);
             }
           });
           this.scrollToTop();
@@ -1369,7 +1991,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }();
 
     DirectoryComponent.ɵfac = function DirectoryComponent_Factory(t) {
-      return new (t || DirectoryComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]));
+      return new (t || DirectoryComponent)();
     };
 
     DirectoryComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
@@ -1801,7 +2423,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.projects);
         }
       },
-      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["RadioControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], ng_multiselect_dropdown__WEBPACK_IMPORTED_MODULE_4__["MultiSelectComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"]],
+      directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["RadioControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["FormControlName"], ng_multiselect_dropdown__WEBPACK_IMPORTED_MODULE_3__["MultiSelectComponent"], _angular_forms__WEBPACK_IMPORTED_MODULE_1__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"]],
       styles: [".content-div[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  height: 100%;\n}\n\n.description[_ngcontent-%COMP%] {\n  flex: 1;\n  font-size: .95em;\n  padding: 10px 5px 0;\n}\n\n.results[_ngcontent-%COMP%] {\n  display: grid;\n  grid-gap: 0 70px;\n  grid-template-columns:repeat(auto-fill, 450px);\n  justify-content: center;\n  margin-left: -6px;\n  width: 99%;\n}\n\n\n\nform[_ngcontent-%COMP%]   label[_ngcontent-%COMP%] {\n  padding: 5px;\n  white-space: nowrap;\n}\n\nform[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  display: inline-block;\n}\n\nform[_ngcontent-%COMP%]   label[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  white-space: nowrap;\n}\n\n#filters-container[_ngcontent-%COMP%] {\n  -moz-column-gap: 40px;\n       column-gap: 40px;\n  margin: 0 auto;\n  width: -webkit-max-content;\n  width: -moz-max-content;\n  width: max-content;\n}\n\n#lang-form[_ngcontent-%COMP%] {\n  margin: 0 auto;\n  max-width: 600px;\n}\n\n.filter[_ngcontent-%COMP%] {\n  padding: 0px 5px 10px 5px;\n}\n\n.toggle-label[_ngcontent-%COMP%] {\n  display: table-cell;\n  font-size: .9em;\n  padding-bottom: 20px;\n  vertical-align: middle;\n}\n\n\n\na.button[_ngcontent-%COMP%] {\n  background-color: green;\n  border-radius: 4px;\n  color: #FFFFFF;\n  display: inline-block;\n  min-width: 50px;\n  padding: 8px;\n  text-align: center;\n  text-decoration: none;\n}\n\nlabel[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  vertical-align: middle;\n}\n\nlabel[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  color: #575757;\n}\n\n.listing[_ngcontent-%COMP%] {\n  background-color: #FFFFFF;\n  border: 1px solid #CCCCCC;\n  border-radius: 5px;\n  margin: 1em auto;\n  padding: 20px 7px 10px;\n  position: relative;\n  text-align: center;\n}\n\n.title[_ngcontent-%COMP%] {\n  font-family: 'Coustard', 'Linux Libertine', Georgia, Times, serif;\n  font-size: 1.6em;\n}\n\n.name-container[_ngcontent-%COMP%] {\n  height: 100px;\n}\n\n.name-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  max-height: 100px;\n  max-width: 90%;\n}\n\n.image-container[_ngcontent-%COMP%] {\n  max-width: 60%;\n}\n\n.logo-border[_ngcontent-%COMP%] {\n  filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);\n}\n\n.link-button[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  padding: 6px 0 3px;\n}\n\n.link-button[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  border-radius: 7px;\n  flex: 1;\n  margin: 0 3px;\n}\n\n.link-button[_ngcontent-%COMP%]   div[_ngcontent-%COMP%]:hover {\n  filter: brightness(85%);\n}\n\n.link-button.site[_ngcontent-%COMP%] {\n  background-color: #666699;\n  box-shadow: 2px 2px #2b2b68;\n}\n\n.link-button.android[_ngcontent-%COMP%] {\n  background-color: #3DDC84;\n  box-shadow: 2px 2px #00bd52;\n}\n\n.link-button.ios[_ngcontent-%COMP%] {\n  background-color: #666666;\n  box-shadow: 2px 2px #040303;\n}\n\n.link-button.facebook[_ngcontent-%COMP%] {\n  background-color: #3C64A7;\n  box-shadow: 2px 2px #13397a;\n}\n\n.link-button.twitter[_ngcontent-%COMP%] {\n  background-color: #00B3E0;\n  box-shadow: 2px 2px #00637a;\n}\n\n.link-button.instagram[_ngcontent-%COMP%] {\n  background-color: #F00075;\n  box-shadow: 2px 2px #b60059;\n}\n\n.link-button.discord[_ngcontent-%COMP%] {\n  background-color: #7289DA;\n  box-shadow: 2px 2px #334dad;\n}\n\n.tags[_ngcontent-%COMP%] {\n  padding: 0 5px 10px;\n}\n\n.tag[_ngcontent-%COMP%] {\n  border-radius: 10px;\n  color: #464646;\n  display: inline-block;\n  font-size: .8em;\n  margin: 5px;\n  padding: 2px 4px;\n}\n\n.tag.platforms[_ngcontent-%COMP%] {\n  background: #A6D8E5;\n  border: 2px solid #359EBB;\n}\n\n.tag.information[_ngcontent-%COMP%] {\n  background: #F5EA9A;\n  border: 2px solid #F1E26F;\n}\n\n.tag.tools[_ngcontent-%COMP%] {\n  background: #AFD9C0;\n  border: 2px solid #61A33E;\n}\n\n\n\n@media only screen and (max-width: 750px) {\n  a.button[_ngcontent-%COMP%] {\n    width: 50%;\n  }\n  \n  #filters-container[_ngcontent-%COMP%] {\n    display: block;\n    width: 100%;\n  }\n  \n  .results[_ngcontent-%COMP%] {\n    grid-template-columns: repeat(auto-fill, 90%) !important;\n  }\n  \n  .listing[_ngcontent-%COMP%] {\n    display: block;\n    text-align: center;\n  }\n\n  .name-container[_ngcontent-%COMP%] {\n    height: auto;\n  }\n  \n  .title[_ngcontent-%COMP%] {\n    margin-bottom: 10px;\n    max-width: 200px;\n  }\n  \n  .flex-item.filter[_ngcontent-%COMP%] {\n    margin: 0 auto;\n    width: 90%;\n  }\n  \n  .flex-container-inline[_ngcontent-%COMP%] {\n    display: block;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvZGlyZWN0b3J5L2RpcmVjdG9yeS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLFdBQVc7O0FBRVg7RUFDRSxhQUFhO0VBQ2Isc0JBQXNCO0VBQ3RCLFlBQVk7QUFDZDs7QUFFQTtFQUNFLE9BQU87RUFDUCxnQkFBZ0I7RUFDaEIsbUJBQW1CO0FBQ3JCOztBQUVBO0VBQ0UsYUFBYTtFQUNiLGdCQUFnQjtFQUNoQiw4Q0FBOEM7RUFDOUMsdUJBQXVCO0VBQ3ZCLGlCQUFpQjtFQUNqQixVQUFVO0FBQ1o7O0FBRUEsWUFBWTs7QUFFWjtFQUNFLFlBQVk7RUFDWixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxxQkFBZ0I7T0FBaEIsZ0JBQWdCO0VBQ2hCLGNBQWM7RUFDZCwwQkFBa0I7RUFBbEIsdUJBQWtCO0VBQWxCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGNBQWM7RUFDZCxnQkFBZ0I7QUFDbEI7O0FBRUE7RUFDRSx5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxtQkFBbUI7RUFDbkIsZUFBZTtFQUNmLG9CQUFvQjtFQUNwQixzQkFBc0I7QUFDeEI7O0FBRUEsYUFBYTs7QUFFYjtFQUNFLHVCQUF1QjtFQUN2QixrQkFBa0I7RUFDbEIsY0FBYztFQUNkLHFCQUFxQjtFQUNyQixlQUFlO0VBQ2YsWUFBWTtFQUNaLGtCQUFrQjtFQUNsQixxQkFBcUI7QUFDdkI7O0FBRUE7RUFDRSxzQkFBc0I7QUFDeEI7O0FBRUE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLHlCQUF5QjtFQUN6QixrQkFBa0I7RUFDbEIsZ0JBQWdCO0VBQ2hCLHNCQUFzQjtFQUN0QixrQkFBa0I7RUFDbEIsa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsaUVBQWlFO0VBQ2pFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGFBQWE7QUFDZjs7QUFFQTtFQUNFLGlCQUFpQjtFQUNqQixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFFQTtFQUVFLG1FQUFtRTtBQUNyRTs7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixPQUFPO0VBQ1AsYUFBYTtBQUNmOztBQUVBO0VBQ0UsdUJBQXVCO0FBQ3pCOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLDJCQUEyQjtBQUM3Qjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QiwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsMkJBQTJCO0FBQzdCOztBQUVBO0VBQ0UseUJBQXlCO0VBQ3pCLDJCQUEyQjtBQUM3Qjs7QUFFQTtFQUNFLHlCQUF5QjtFQUN6QiwyQkFBMkI7QUFDN0I7O0FBRUE7RUFDRSx5QkFBeUI7RUFDekIsMkJBQTJCO0FBQzdCOztBQUdBO0VBQ0UseUJBQXlCO0VBQ3pCLDJCQUEyQjtBQUM3Qjs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLG1CQUFtQjtFQUNuQixjQUFjO0VBQ2QscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixXQUFXO0VBQ1gsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UsbUJBQW1CO0VBQ25CLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLG1CQUFtQjtFQUNuQix5QkFBeUI7QUFDM0I7O0FBRUE7RUFDRSxtQkFBbUI7RUFDbkIseUJBQXlCO0FBQzNCOztBQUVBLGVBQWU7O0FBRWY7RUFDRTtJQUNFLFVBQVU7RUFDWjs7RUFFQTtJQUNFLGNBQWM7SUFDZCxXQUFXO0VBQ2I7O0VBRUE7SUFDRSx3REFBd0Q7RUFDMUQ7O0VBRUE7SUFDRSxjQUFjO0lBQ2Qsa0JBQWtCO0VBQ3BCOztFQUVBO0lBQ0UsWUFBWTtFQUNkOztFQUVBO0lBQ0UsbUJBQW1CO0lBQ25CLGdCQUFnQjtFQUNsQjs7RUFFQTtJQUNFLGNBQWM7SUFDZCxVQUFVO0VBQ1o7O0VBRUE7SUFDRSxjQUFjO0VBQ2hCO0FBQ0YiLCJmaWxlIjoic3JjL2FwcC9kaXJlY3RvcnkvZGlyZWN0b3J5LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBMQVlPVVQgKi9cblxuLmNvbnRlbnQtZGl2IHtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uZGVzY3JpcHRpb24ge1xuICBmbGV4OiAxO1xuICBmb250LXNpemU6IC45NWVtO1xuICBwYWRkaW5nOiAxMHB4IDVweCAwO1xufVxuXG4ucmVzdWx0cyB7XG4gIGRpc3BsYXk6IGdyaWQ7XG4gIGdyaWQtZ2FwOiAwIDcwcHg7XG4gIGdyaWQtdGVtcGxhdGUtY29sdW1uczpyZXBlYXQoYXV0by1maWxsLCA0NTBweCk7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBtYXJnaW4tbGVmdDogLTZweDtcbiAgd2lkdGg6IDk5JTtcbn1cblxuLyogRklMVEVSUyAqL1xuXG5mb3JtIGxhYmVsIHtcbiAgcGFkZGluZzogNXB4O1xuICB3aGl0ZS1zcGFjZTogbm93cmFwO1xufVxuXG5mb3JtIGRpdiB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cblxuZm9ybSBsYWJlbCBzcGFuIHtcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcbn1cblxuI2ZpbHRlcnMtY29udGFpbmVyIHtcbiAgY29sdW1uLWdhcDogNDBweDtcbiAgbWFyZ2luOiAwIGF1dG87XG4gIHdpZHRoOiBtYXgtY29udGVudDtcbn1cblxuI2xhbmctZm9ybSB7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBtYXgtd2lkdGg6IDYwMHB4O1xufVxuXG4uZmlsdGVyIHtcbiAgcGFkZGluZzogMHB4IDVweCAxMHB4IDVweDtcbn1cblxuLnRvZ2dsZS1sYWJlbCB7XG4gIGRpc3BsYXk6IHRhYmxlLWNlbGw7XG4gIGZvbnQtc2l6ZTogLjllbTtcbiAgcGFkZGluZy1ib3R0b206IDIwcHg7XG4gIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XG59XG5cbi8qIExJU1RJTkdTICovXG5cbmEuYnV0dG9uIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XG4gIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgY29sb3I6ICNGRkZGRkY7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgbWluLXdpZHRoOiA1MHB4O1xuICBwYWRkaW5nOiA4cHg7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xufVxuXG5sYWJlbCBpbWcge1xuICB2ZXJ0aWNhbC1hbGlnbjogbWlkZGxlO1xufVxuXG5sYWJlbCBzcGFuIHtcbiAgY29sb3I6ICM1NzU3NTc7XG59XG5cbi5saXN0aW5nIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI0ZGRkZGRjtcbiAgYm9yZGVyOiAxcHggc29saWQgI0NDQ0NDQztcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBtYXJnaW46IDFlbSBhdXRvO1xuICBwYWRkaW5nOiAyMHB4IDdweCAxMHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnRpdGxlIHtcbiAgZm9udC1mYW1pbHk6ICdDb3VzdGFyZCcsICdMaW51eCBMaWJlcnRpbmUnLCBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7XG4gIGZvbnQtc2l6ZTogMS42ZW07XG59XG5cbi5uYW1lLWNvbnRhaW5lciB7XG4gIGhlaWdodDogMTAwcHg7XG59XG5cbi5uYW1lLWNvbnRhaW5lciBpbWcge1xuICBtYXgtaGVpZ2h0OiAxMDBweDtcbiAgbWF4LXdpZHRoOiA5MCU7XG59XG5cbi5pbWFnZS1jb250YWluZXIge1xuICBtYXgtd2lkdGg6IDYwJTtcbn1cblxuLmxvZ28tYm9yZGVyIHtcbiAgLXdlYmtpdC1maWx0ZXI6IGRyb3Atc2hhZG93KDFweDFweDBibGFjaykgZHJvcC1zaGFkb3coLTFweCAtMXB4IDAgYmxhY2spO1xuICBmaWx0ZXI6IGRyb3Atc2hhZG93KDFweCAxcHggMCBibGFjaykgZHJvcC1zaGFkb3coLTFweCAtMXB4IDAgYmxhY2spO1xufVxuXG4ubGluay1idXR0b24gaW1nIHtcbiAgcGFkZGluZzogNnB4IDAgM3B4O1xufVxuXG4ubGluay1idXR0b24gZGl2IHtcbiAgYm9yZGVyLXJhZGl1czogN3B4O1xuICBmbGV4OiAxO1xuICBtYXJnaW46IDAgM3B4O1xufVxuXG4ubGluay1idXR0b24gZGl2OmhvdmVyIHtcbiAgZmlsdGVyOiBicmlnaHRuZXNzKDg1JSk7XG59XG5cbi5saW5rLWJ1dHRvbi5zaXRlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzY2NjY5OTtcbiAgYm94LXNoYWRvdzogMnB4IDJweCAjMmIyYjY4O1xufVxuXG4ubGluay1idXR0b24uYW5kcm9pZCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMzRERDODQ7XG4gIGJveC1zaGFkb3c6IDJweCAycHggIzAwYmQ1Mjtcbn1cblxuLmxpbmstYnV0dG9uLmlvcyB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM2NjY2NjY7XG4gIGJveC1zaGFkb3c6IDJweCAycHggIzA0MDMwMztcbn1cblxuLmxpbmstYnV0dG9uLmZhY2Vib29rIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzNDNjRBNztcbiAgYm94LXNoYWRvdzogMnB4IDJweCAjMTMzOTdhO1xufVxuXG4ubGluay1idXR0b24udHdpdHRlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMEIzRTA7XG4gIGJveC1zaGFkb3c6IDJweCAycHggIzAwNjM3YTtcbn1cblxuLmxpbmstYnV0dG9uLmluc3RhZ3JhbSB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGMDAwNzU7XG4gIGJveC1zaGFkb3c6IDJweCAycHggI2I2MDA1OTtcbn1cblxuXG4ubGluay1idXR0b24uZGlzY29yZCB7XG4gIGJhY2tncm91bmQtY29sb3I6ICM3Mjg5REE7XG4gIGJveC1zaGFkb3c6IDJweCAycHggIzMzNGRhZDtcbn1cblxuLnRhZ3Mge1xuICBwYWRkaW5nOiAwIDVweCAxMHB4O1xufVxuXG4udGFnIHtcbiAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgY29sb3I6ICM0NjQ2NDY7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgZm9udC1zaXplOiAuOGVtO1xuICBtYXJnaW46IDVweDtcbiAgcGFkZGluZzogMnB4IDRweDtcbn1cblxuLnRhZy5wbGF0Zm9ybXMge1xuICBiYWNrZ3JvdW5kOiAjQTZEOEU1O1xuICBib3JkZXI6IDJweCBzb2xpZCAjMzU5RUJCO1xufVxuXG4udGFnLmluZm9ybWF0aW9uIHtcbiAgYmFja2dyb3VuZDogI0Y1RUE5QTtcbiAgYm9yZGVyOiAycHggc29saWQgI0YxRTI2Rjtcbn1cblxuLnRhZy50b29scyB7XG4gIGJhY2tncm91bmQ6ICNBRkQ5QzA7XG4gIGJvcmRlcjogMnB4IHNvbGlkICM2MUEzM0U7XG59XG5cbi8qIFJFU1BPTlNJVkUgKi9cblxuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NTBweCkge1xuICBhLmJ1dHRvbiB7XG4gICAgd2lkdGg6IDUwJTtcbiAgfVxuICBcbiAgI2ZpbHRlcnMtY29udGFpbmVyIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICB3aWR0aDogMTAwJTtcbiAgfVxuICBcbiAgLnJlc3VsdHMge1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZmlsbCwgOTAlKSAhaW1wb3J0YW50O1xuICB9XG4gIFxuICAubGlzdGluZyB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICB9XG5cbiAgLm5hbWUtY29udGFpbmVyIHtcbiAgICBoZWlnaHQ6IGF1dG87XG4gIH1cbiAgXG4gIC50aXRsZSB7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgICBtYXgtd2lkdGg6IDIwMHB4O1xuICB9XG4gIFxuICAuZmxleC1pdGVtLmZpbHRlciB7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gICAgd2lkdGg6IDkwJTtcbiAgfVxuICBcbiAgLmZsZXgtY29udGFpbmVyLWlubGluZSB7XG4gICAgZGlzcGxheTogYmxvY2s7XG4gIH1cbn0iXX0= */"]
     });
     /*@__PURE__*/
@@ -1815,9 +2437,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           styleUrls: ['./directory.component.css']
         }]
       }], function () {
-        return [{
-          type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
-        }];
+        return [];
       }, null);
     })();
     /***/
@@ -2022,8 +2642,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     var environment = {
-      production: false,
-      projectData: './assets/data/projects.json'
+      production: false
     };
     /*
      * For easier debugging in development mode, you can import the following file
