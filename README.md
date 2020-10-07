@@ -45,7 +45,7 @@ Site listings are stored in `/src/app/data/project-data.ts` in alphabetical orde
     facebook: "bestacnhguide",
     instagram: "bestacnhguide",
     twitter: "bestacnhguide",
-    git: "https://github.com/some/repo_url/"
+    git: "https://github.com/some/repo_url/",
     information: [
       "critters",
       "items",
