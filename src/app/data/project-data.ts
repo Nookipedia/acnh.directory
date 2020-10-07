@@ -231,6 +231,49 @@ export const projectsData = [
         ]
     },
     {
+        name: "ACNH Music",
+        description: "Web app that plays the current hourly music from Animal Crossing: New Horizons.",
+        languages: ["en"],
+        logo: "",
+        logoStyle: "",
+        site: "https://acnhapi.com/acnh-music",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+        ],
+        tools: [
+            "music"
+        ]
+    },
+    {
+        name: "ACNH Translation Spreadsheet",
+        description: "A Google spreadsheet listing translation for most of the game's data",
+        languages: ["en","es","fr","de","it","nl","ru","zh","jp","ko"],
+        logo: "",
+        logoStyle: "",
+        site: "https://bit.ly/acnh-translations",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://github.com/alexislours/translation-sheet-data",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "items",
+            "villagers"
+        ],
+        tools: []
+    },
+    {
         name: "ACNH Travel Guide",
         description: "New Horizons companion app, providing you with information and progress tracking",
         languages: ["en"],
@@ -563,6 +606,27 @@ export const projectsData = [
         ]
     },
     {
+        name: "NMT Calculator",
+        description: "Calculates odds of finding villagers on Mystery Islands.",
+        languages: ["en"],
+        logo: "",
+        logoStyle: "",
+        site: "https://acnhapi.com/nmt-calculator",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://github.com/alexislours/nmt-calculator",
+        information: [
+            "villagers"
+        ],
+        tools: [
+            "simulator"
+        ]
+    },
+    {
         name: "Nookazon",
         description: "Buy and sell Animal Crossing: New Horizons items",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
@@ -867,6 +931,25 @@ export const projectsData = [
         information: [],
         tools: [
             "queueing"
+        ]
+    },
+    {
+        name:  "Turnip Prophet",
+        description:  "Turnip price prediction tool available in multiple languages.",
+        languages:  ["en","es","fr","de","it","nl","ru","zh","jp","ko"],
+        logo:  "",
+        logoStyle:  "",
+        site:  "https://turnipprophet.io/",
+        android:  "",
+        ios:  "",
+        discord:  "",
+        facebook:  "",
+        instagram:  "",
+        twitter:  "",
+        git: "https://github.com/mikebryant/ac-nh-turnip-prices",
+        information:  [],
+        tools:  [
+            "turnips"
         ]
     },
     {
