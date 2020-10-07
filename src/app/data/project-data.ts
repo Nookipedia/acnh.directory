@@ -12,6 +12,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "fossils",
@@ -34,6 +35,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "fossils"
@@ -55,6 +57,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/Dimillian/ACHNBrowserUI",
         information: [
             "critters",
             "fossils"
@@ -77,6 +80,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/MariuszDabrowski/ac-miles",
         information: [
             "gameplay"
         ],
@@ -95,6 +99,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/alexislours/ACNHAPI",
         information: [
             "art",
             "critters",
@@ -119,6 +124,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/shengye000/ACNHDatabase",
         information: [
             "art",
             "critters",
@@ -143,6 +149,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -165,6 +172,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers"
         ],
@@ -183,6 +191,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -209,6 +218,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -233,6 +243,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -258,6 +269,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -280,6 +292,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [],
         tools: [
             "design sharing"
@@ -298,6 +311,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -324,6 +338,7 @@ export const projectsData = [
         facebook: "AnimalCrossWorld",
         instagram: "animalcrossing_world",
         twitter: "ACWorldBlog",
+        git: "",
         information: [
             "gameplay"
         ],
@@ -342,6 +357,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "flowers",
@@ -362,6 +378,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -386,6 +403,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "catalogscanner",
+        git: "",
         information: [
             "critters",
             "items"
@@ -407,6 +425,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
         ],
         tools: [
@@ -427,6 +446,7 @@ export const projectsData = [
         facebook: "dodocodes",
         instagram: "dodocodes.app",
         twitter: "dodo_codes",
+        git: "",
         information: [],
         tools: [
             "design sharing",
@@ -449,6 +469,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -474,6 +495,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers"
         ],
@@ -494,6 +516,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [],
         tools: [
             "simulator"
@@ -512,6 +535,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters"
         ],
@@ -532,6 +556,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/Treeki/MeteoNook/",
         information: [],
         tools: [
             "weather"
@@ -550,6 +575,7 @@ export const projectsData = [
         facebook: "nookazon",
         instagram: "nookazon",
         twitter: "nookazon",
+        git: "",
         information: [
             "items"
         ],
@@ -570,6 +596,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers",
             "items"
@@ -593,6 +620,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "nookexchange",
+        git: "",
         information: [
             "items"
         ],
@@ -613,6 +641,7 @@ export const projectsData = [
         facebook: "nookipedia",
         instagram: "nookipedia",
         twitter: "nookipedia",
+        git: "",
         information: [
             "art",
             "critters",
@@ -640,6 +669,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters"
         ],
@@ -660,6 +690,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "items"
         ],
@@ -680,6 +711,7 @@ export const projectsData = [
         facebook: "NookNetNet",
         instagram: "nooknetnet",
         twitter: "nooknetnet",
+        git: "",
         information: [
             "art",
             "flowers",
@@ -708,6 +740,7 @@ export const projectsData = [
         facebook: "",
         instagram: "nookplaza",
         twitter: "nook_plaza",
+        git: "",
         information: [
             "art",
             "critters",
@@ -737,6 +770,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -764,6 +798,7 @@ export const projectsData = [
         facebook: "",
         instagram: "nooks.island",
         twitter: "NooksIsland",
+        git: "",
         information: [
             "critters"
         ],
@@ -786,6 +821,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "stalksio",
+        git: "",
         information: [],
         tools: [
             "turnips"
@@ -804,6 +840,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -826,6 +863,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "WarpWorld",
+        git: "",
         information: [],
         tools: [
             "queueing"
@@ -844,6 +882,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "villagerdb",
+        git: "https://github.com/jefflomacy/villagerdb",
         information: [
             "art",
             "critters",
@@ -868,6 +907,7 @@ export const projectsData = [
         facebook: "VillagersClub",
         instagram: "villagersclub",
         twitter: "VillagersClub",
+        git: "",
         information: [
             "critters",
             "items",
@@ -891,6 +931,7 @@ export const projectsData = [
         facebook: "",
         instagram: "yuecrossing",
         twitter: "yuecrossing",
+        git: "",
         information: [
             "flowers",
             "gameplay"
