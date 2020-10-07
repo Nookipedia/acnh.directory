@@ -71,7 +71,7 @@ Explanation for each field:
 * `facebook`: Facebook page/group, if applicable. Only provide the handle, not the full URL.
 * `instagram`: Instagram profile, if applicable. Only provide the handle, not the full URL.
 * `twitter`: Twitter profile, if applicable. Only provide the handle, not the full URL.
-* `twitter`: Link to the git repository, if applicableZ.
+* `git`: Link to the git repository, if applicable.
 * `information`: An alphabetical array of information the resource provides. Can be `art`, `critters`, `flowers`, `fossils`, `gameplay`, `gifts`, `items`, `villagers`.
   * `gameplay` is a sort of catch-all for guides that provide comprehensive gameplay coverage, or substantial material not covered by the other categories.
 * `tools`: An alphabetical array of tools the resource provides. Can be `api`, `checklist`, `design sharing`, `dreams`, `island rating`, `marketplace`, `queueing`, `simulator`, `town tunes`, `turnips`, `weather`, `wiki`.
