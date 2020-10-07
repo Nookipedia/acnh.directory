@@ -1914,7 +1914,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.langForm.patchValue({
             lang: 'en',
             tc: true
-          }); // Set filter dropdown values:
+          }); // Apply filters to show English resources on inital load
+
+          this.applyFilters(); // Set filter dropdown values:
 
           this.dropdownListPlatforms = [{
             item_id: 'website',
