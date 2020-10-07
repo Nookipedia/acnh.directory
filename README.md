@@ -30,27 +30,28 @@ Once your changes are ready, open a pull request.
 If you need help, don't hesitate to reach out. Feel free to open an issue for help, or you can reach Kevin directly (see contact details on [profile](https://github.com/KevinPayravi)).
 
 ### Format
-Site listings are stored in `/src/app/assets/data/projects.json` in alphabetical order in the following format:
-```
+Site listings are stored in `/src/app/data/project-data.ts` in alphabetical order in the following format:
+```ts
   {
-    "name": "The Best ACNH Guide",
-    "description": "Information on villagers, critters, and items.",
-    "languages": ["en", "jp"],
-    "logo": "best-acnh-guide.png",
-    "logoStyle": "banner",
-    "site": "https://example.com/",
-    "android": "https://play.google.com/store",
-    "ios": "https://www.apple.com/app-store/",
-    "discord": "abcd123",
-    "facebook": "bestacnhguide",
-    "instagram": "bestacnhguide",
-    "twitter": "bestacnhguide",
-    "information": [
+    name: "The Best ACNH Guide",
+    description: "Information on villagers, critters, and items.",
+    languages: ["en", "jp"],
+    logo: "best-acnh-guide.png",
+    logoStyle: "banner",
+    site: "https://example.com/",
+    android: "https://play.google.com/store",
+    ios: "https://www.apple.com/app-store/",
+    discord: "abcd123",
+    facebook: "bestacnhguide",
+    instagram: "bestacnhguide",
+    twitter: "bestacnhguide",
+    git: "https://github.com/some/repo_url/"
+    information: [
       "critters",
       "items",
       "villagers"
     ],
-    "tools": [
+    tools: [
       "checklist"
     ]
   }
@@ -70,6 +71,7 @@ Explanation for each field:
 * `facebook`: Facebook page/group, if applicable. Only provide the handle, not the full URL.
 * `instagram`: Instagram profile, if applicable. Only provide the handle, not the full URL.
 * `twitter`: Twitter profile, if applicable. Only provide the handle, not the full URL.
+* `twitter`: Link to the git repository, if applicableZ.
 * `information`: An alphabetical array of information the resource provides. Can be `art`, `critters`, `flowers`, `fossils`, `gameplay`, `gifts`, `items`, `villagers`.
   * `gameplay` is a sort of catch-all for guides that provide comprehensive gameplay coverage, or substantial material not covered by the other categories.
 * `tools`: An alphabetical array of tools the resource provides. Can be `api`, `checklist`, `design sharing`, `dreams`, `island rating`, `marketplace`, `queueing`, `simulator`, `town tunes`, `turnips`, `weather`, `wiki`.
