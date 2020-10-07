@@ -24,8 +24,9 @@ export class DirectoryComponent implements OnInit {
   selectedItemsInformation = [];
   selectedItemsTools = [];
 
-  projects = projectsData;
-  filterData = projectsData;
+  shuffledData = this.shuffle(projectsData);
+  projects = this.shuffledData;
+  filterData = this.shuffledData;
   ifFilterMeetsAll = false;
   sorted = false;
 
