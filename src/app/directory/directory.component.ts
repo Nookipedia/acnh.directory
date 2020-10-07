@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
 import { IDropdownSettings } from 'ng-multiselect-dropdown';
 import { projectsData } from '../data/project-data';
+import { languages } from '../data/languages';
 
 @Component({
   selector: 'app-directory',
@@ -16,6 +17,7 @@ export class DirectoryComponent implements OnInit {
   langForm = new FormGroup({
     lang: new FormControl()
   });
+  languageList = languages;
   dropdownListPlatforms = [];
   dropdownListInformation = [];
   dropdownListTools = [];

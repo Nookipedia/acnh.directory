@@ -3,64 +3,10 @@
     <div class="content-div">
         <h3 class="font-tools coustard">Resource Language</h3>
         <form id="lang-form" class="coustard" [formGroup]="langForm">
-          <div>
-            <label for="en">
-              <input id="en" type="radio" value="en" name="lang" value="en" (change)="applyFilters()" formControlName="lang" />
-              <span>English</span>
-            </label>
-          </div>
-          <div>
-            <label for="es">
-              <input id="es" type="radio" value="es" name="lang" value="es" (change)="applyFilters()" formControlName="lang" />
-              <span>Español</span>
-            </label>
-          </div>
-          <div>
-            <label for="fr">
-              <input id="fr" type="radio" value="fr" name="lang" value="fr" (change)="applyFilters()" formControlName="lang" />
-              <span>Français</span>
-            </label>
-          </div>
-          <div>
-            <label for="de">
-              <input id="de" type="radio" value="de" name="lang" value="de" (change)="applyFilters()" formControlName="lang" />
-              <span>Deutsch</span>
-            </label>
-          </div>
-          <div>
-            <label for="it">
-              <input id="it" type="radio" value="it" name="lang" value="it" (change)="applyFilters()" formControlName="lang" />
-              <span>Italiano</span>
-            </label>
-          </div>
-          <div>
-            <label for="nl">
-              <input id="nl" type="radio" value="nl" name="lang" value="nl" (change)="applyFilters()" formControlName="lang" />
-              <span>Nederlands</span>
-            </label>
-          </div>
-          <div>
-            <label for="ru">
-              <input id="ru" type="radio" value="ru" name="lang" value="ru" (change)="applyFilters()" formControlName="lang" />
-              <span>Русский</span>
-            </label>
-          </div>
-          <div>
-            <label for="zh">
-              <input id="zh" type="radio" value="zh" name="lang" value="zh" (change)="applyFilters()" formControlName="lang" />
-              <span>简体中文</span>
-            </label>
-          </div>
-          <div>
-            <label for="jp">
-              <input id="jp" type="radio" value="jp" name="lang" value="jp" (change)="applyFilters()" formControlName="lang" />
-              <span>日本語</span>
-            </label>
-          </div>
-          <div>
-            <label for="ko">
-              <input id="ko" type="radio" value="ko" name="lang" value="ko" (change)="applyFilters()" formControlName="lang" />
-              <span>한국어</span>
+          <div *ngFor="let lang of languageList">
+            <label for={{lang.code}}>
+              <input id={{lang.code}} type="radio" value={{lang.code}} name="lang" (change)="applyFilters()" formControlName="lang" />
+              <span>{{lang.text}}</span>
             </label>
           </div>
         </form>
