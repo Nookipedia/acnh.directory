@@ -415,8 +415,8 @@
   },
   {
     "name": "DodoCodes.com",
-    "description": "Dodo codes, designs, auctions, dreams, and more",
-    "languages": ["en"],
+    "description": "All in one ACNH Community with Dodo codes, designs, auctions, giveaways, articles, dreams, user ratings, wishlists, catalogs, and more",
+    "languages": ["en", "de", "fr", "zh"],
     "logo": "dodocodescom.png",
     "logoStyle": "banner",
     "logoBorder": true,
@@ -424,13 +424,14 @@
     "android": "https://play.google.com/store/apps/details?id=com.dodocodes.mobile",
     "ios": "https://apps.apple.com/us/app/dodocodes/id1512463462",
     "discord": "dodocodes",
-    "facebook": "",
-    "instagram": "",
-    "twitter": "",
+    "facebook": "dodocodes",
+    "instagram": "dodocodes.app",
+    "twitter": "dodo_codes",
     "information": [],
     "tools": [
       "design sharing",
       "dreams",
+      "giveaways",
       "marketplace",
       "queueing"
     ]
