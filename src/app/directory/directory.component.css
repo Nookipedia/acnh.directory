@@ -156,10 +156,14 @@ label span {
   box-shadow: 2px 2px #b60059;
 }
 
-
 .link-button.discord {
   background-color: #7289DA;
   box-shadow: 2px 2px #334dad;
+}
+
+.link-button.git {
+  background-color: #f14e32;
+  box-shadow: 2px 2px #bf3b24;
 }
 
 .tags {

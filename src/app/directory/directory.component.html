@@ -3,64 +3,10 @@
     <div class="content-div">
         <h3 class="font-tools coustard">Resource Language</h3>
         <form id="lang-form" class="coustard" [formGroup]="langForm">
-          <div>
-            <label for="en">
-              <input id="en" type="radio" value="en" name="lang" value="en" (change)="applyFilters()" formControlName="lang" />
-              <span>English</span>
-            </label>
-          </div>
-          <div>
-            <label for="es">
-              <input id="es" type="radio" value="es" name="lang" value="es" (change)="applyFilters()" formControlName="lang" />
-              <span>Español</span>
-            </label>
-          </div>
-          <div>
-            <label for="fr">
-              <input id="fr" type="radio" value="fr" name="lang" value="fr" (change)="applyFilters()" formControlName="lang" />
-              <span>Français</span>
-            </label>
-          </div>
-          <div>
-            <label for="de">
-              <input id="de" type="radio" value="de" name="lang" value="de" (change)="applyFilters()" formControlName="lang" />
-              <span>Deutsch</span>
-            </label>
-          </div>
-          <div>
-            <label for="it">
-              <input id="it" type="radio" value="it" name="lang" value="it" (change)="applyFilters()" formControlName="lang" />
-              <span>Italiano</span>
-            </label>
-          </div>
-          <div>
-            <label for="nl">
-              <input id="nl" type="radio" value="nl" name="lang" value="nl" (change)="applyFilters()" formControlName="lang" />
-              <span>Nederlands</span>
-            </label>
-          </div>
-          <div>
-            <label for="ru">
-              <input id="ru" type="radio" value="ru" name="lang" value="ru" (change)="applyFilters()" formControlName="lang" />
-              <span>Русский</span>
-            </label>
-          </div>
-          <div>
-            <label for="zh">
-              <input id="zh" type="radio" value="zh" name="lang" value="zh" (change)="applyFilters()" formControlName="lang" />
-              <span>简体中文</span>
-            </label>
-          </div>
-          <div>
-            <label for="jp">
-              <input id="jp" type="radio" value="jp" name="lang" value="jp" (change)="applyFilters()" formControlName="lang" />
-              <span>日本語</span>
-            </label>
-          </div>
-          <div>
-            <label for="ko">
-              <input id="ko" type="radio" value="ko" name="lang" value="ko" (change)="applyFilters()" formControlName="lang" />
-              <span>한국어</span>
+          <div *ngFor="let lang of languageList">
+            <label for={{lang.code}}>
+              <input id={{lang.code}} type="radio" value={{lang.code}} name="lang" (change)="applyFilters()" formControlName="lang" />
+              <span>{{lang.text}}</span>
             </label>
           </div>
         </form>
@@ -158,45 +104,52 @@
             </div>
           </a>
         </div>
-        <div *ngIf="p.android !== undefined && p.android !== ''" class="link-button android" tabindex="0">
+        <div *ngIf="p.android" class="link-button android" tabindex="0">
           <a href="{{p.android}}" target="_blank" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/android.png" alt="Download on Google Play" width="16px">
             </div>
           </a>
         </div>
-        <div *ngIf="p.ios !== undefined && p.ios !== ''" class="link-button ios" tabindex="0">
+        <div *ngIf="p.ios" class="link-button ios" tabindex="0">
           <a href="{{p.ios}}" target="_blank" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/apple.png" alt="Download on the App Store" width="16px">
             </div>
           </a>
         </div>
-        <div *ngIf="p.facebook !== undefined && p.facebook !== ''" class="link-button facebook" tabindex="0">
+        <div *ngIf="p.facebook" class="link-button facebook" tabindex="0">
           <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/facebook.png" alt="Facebook profile" width="16px">
             </div>
           </a>
         </div>
-        <div *ngIf="p.twitter !== undefined && p.twitter !== ''" class="link-button twitter" tabindex="0">
+        <div *ngIf="p.twitter" class="link-button twitter" tabindex="0">
           <a href="https://twitter.com/{{p.twitter}}" target="_blank" nofollow>
             <div>
             <img class="link-button" src="assets/images/links/twitter.png" alt="Twitter profile" width="16px">
             </div>
           </a>
         </div>
-        <div *ngIf="p.instagram !== undefined && p.instagram !== ''" class="link-button instagram" tabindex="0">
+        <div *ngIf="p.instagram" class="link-button instagram" tabindex="0">
           <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/instagram.png" alt="Instagram profile" width="16px">
             </div>
           </a>
         </div>
-        <div *ngIf="p.discord !== undefined && p.discord !== ''" class="link-button discord" tabindex="0">
+        <div *ngIf="p.discord" class="link-button discord" tabindex="0">
           <a href="https://discord.gg/{{p.discord}}" target="_blank" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/discord.png" alt="Discord invite" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.git" class="link-button git" tabindex="0">
+          <a href="{{p.git}}" target="_blank" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/git.png" alt="Git link" width="16px">
             </div>
           </a>
         </div>

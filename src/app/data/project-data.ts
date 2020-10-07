@@ -12,6 +12,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "fossils",
@@ -34,6 +35,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "fossils"
@@ -55,6 +57,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/Dimillian/ACHNBrowserUI",
         information: [
             "critters",
             "fossils"
@@ -77,6 +80,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/MariuszDabrowski/ac-miles",
         information: [
             "gameplay"
         ],
@@ -95,6 +99,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/alexislours/ACNHAPI",
         information: [
             "art",
             "critters",
@@ -119,6 +124,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/shengye000/ACNHDatabase",
         information: [
             "art",
             "critters",
@@ -143,6 +149,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -165,6 +172,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers"
         ],
@@ -183,6 +191,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -209,6 +218,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -219,6 +229,49 @@ export const projectsData = [
             "checklist",
             "turnips"
         ]
+    },
+    {
+        name: "ACNH Music",
+        description: "Web app that plays the current hourly music from Animal Crossing: New Horizons.",
+        languages: ["en"],
+        logo: "",
+        logoStyle: "",
+        site: "https://acnhapi.com/acnh-music",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+        ],
+        tools: [
+            "music"
+        ]
+    },
+    {
+        name: "ACNH Translation Spreadsheet",
+        description: "A Google spreadsheet listing translation for most of the game's data",
+        languages: ["en","es","fr","de","it","nl","ru","zh","jp","ko"],
+        logo: "",
+        logoStyle: "",
+        site: "https://bit.ly/acnh-translations",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://github.com/alexislours/translation-sheet-data",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "items",
+            "villagers"
+        ],
+        tools: []
     },
     {
         name: "ACNH Travel Guide",
@@ -233,6 +286,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -258,6 +312,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -280,6 +335,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [],
         tools: [
             "design sharing"
@@ -298,6 +354,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -324,6 +381,7 @@ export const projectsData = [
         facebook: "AnimalCrossWorld",
         instagram: "animalcrossing_world",
         twitter: "ACWorldBlog",
+        git: "",
         information: [
             "gameplay"
         ],
@@ -342,6 +400,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters",
             "flowers",
@@ -362,6 +421,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -386,6 +446,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "catalogscanner",
+        git: "",
         information: [
             "critters",
             "items"
@@ -407,6 +468,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
         ],
         tools: [
@@ -427,6 +489,7 @@ export const projectsData = [
         facebook: "dodocodes",
         instagram: "dodocodes.app",
         twitter: "dodo_codes",
+        git: "",
         information: [],
         tools: [
             "design sharing",
@@ -449,6 +512,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -474,6 +538,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers"
         ],
@@ -494,6 +559,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [],
         tools: [
             "simulator"
@@ -512,6 +578,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters"
         ],
@@ -532,9 +599,31 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "https://github.com/Treeki/MeteoNook/",
         information: [],
         tools: [
             "weather"
+        ]
+    },
+    {
+        name: "NMT Calculator",
+        description: "Calculates odds of finding villagers on Mystery Islands.",
+        languages: ["en"],
+        logo: "",
+        logoStyle: "",
+        site: "https://acnhapi.com/nmt-calculator",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://github.com/alexislours/nmt-calculator",
+        information: [
+            "villagers"
+        ],
+        tools: [
+            "simulator"
         ]
     },
     {
@@ -550,6 +639,7 @@ export const projectsData = [
         facebook: "nookazon",
         instagram: "nookazon",
         twitter: "nookazon",
+        git: "",
         information: [
             "items"
         ],
@@ -570,6 +660,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "flowers",
             "items"
@@ -593,6 +684,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "nookexchange",
+        git: "",
         information: [
             "items"
         ],
@@ -613,6 +705,7 @@ export const projectsData = [
         facebook: "nookipedia",
         instagram: "nookipedia",
         twitter: "nookipedia",
+        git: "",
         information: [
             "art",
             "critters",
@@ -640,6 +733,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "critters"
         ],
@@ -660,6 +754,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "items"
         ],
@@ -680,6 +775,7 @@ export const projectsData = [
         facebook: "NookNetNet",
         instagram: "nooknetnet",
         twitter: "nooknetnet",
+        git: "",
         information: [
             "art",
             "flowers",
@@ -708,6 +804,7 @@ export const projectsData = [
         facebook: "",
         instagram: "nookplaza",
         twitter: "nook_plaza",
+        git: "",
         information: [
             "art",
             "critters",
@@ -737,6 +834,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -764,6 +862,7 @@ export const projectsData = [
         facebook: "",
         instagram: "nooks.island",
         twitter: "NooksIsland",
+        git: "",
         information: [
             "critters"
         ],
@@ -786,6 +885,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "stalksio",
+        git: "",
         information: [],
         tools: [
             "turnips"
@@ -804,6 +904,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
+        git: "",
         information: [
             "art",
             "critters",
@@ -826,9 +927,29 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "WarpWorld",
+        git: "",
         information: [],
         tools: [
             "queueing"
+        ]
+    },
+    {
+        name:  "Turnip Prophet",
+        description:  "Turnip price prediction tool available in multiple languages.",
+        languages:  ["en","es","fr","de","it","nl","ru","zh","jp","ko"],
+        logo:  "",
+        logoStyle:  "",
+        site:  "https://turnipprophet.io/",
+        android:  "",
+        ios:  "",
+        discord:  "",
+        facebook:  "",
+        instagram:  "",
+        twitter:  "",
+        git: "https://github.com/mikebryant/ac-nh-turnip-prices",
+        information:  [],
+        tools:  [
+            "turnips"
         ]
     },
     {
@@ -844,6 +965,7 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "villagerdb",
+        git: "https://github.com/jefflomacy/villagerdb",
         information: [
             "art",
             "critters",
@@ -868,6 +990,7 @@ export const projectsData = [
         facebook: "VillagersClub",
         instagram: "villagersclub",
         twitter: "VillagersClub",
+        git: "",
         information: [
             "critters",
             "items",
@@ -891,6 +1014,7 @@ export const projectsData = [
         facebook: "",
         instagram: "yuecrossing",
         twitter: "yuecrossing",
+        git: "",
         information: [
             "flowers",
             "gameplay"
