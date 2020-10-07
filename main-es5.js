@@ -685,7 +685,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       tools: ["checklist", "turnips"]
     }, {
       name: "ACNH Music",
-      description: "Web app that plays the current hourly music from Animal Crossing: New Horizons.",
+      description: "Web app that plays the current hourly music from Animal Crossing: New Horizons",
       languages: ["en"],
       logo: "",
       logoStyle: "",
@@ -829,7 +829,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       tools: ["checklist"]
     }, {
       name: "CatalogScanner",
-      description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos.",
+      description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos",
       languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
       logo: "catalog-scanner.png",
       logoStyle: "icon",
@@ -875,7 +875,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       twitter: "dodo_codes",
       git: "",
       information: [],
-      tools: ["design sharing", "dreams", "giveaways", "marketplace", "queueing"]
+      tools: ["design sharing", "dreams", "marketplace", "queueing"]
     }, {
       name: "FANDOM Animal Crossing Wiki",
       description: "FANDOM Animal Crossing wiki that anyone can contribute to",
@@ -958,7 +958,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       tools: ["weather"]
     }, {
       name: "NMT Calculator",
-      description: "Calculates odds of finding villagers on Mystery Islands.",
+      description: "Calculates odds of finding villagers on Mystery Islands",
       languages: ["en"],
       logo: "",
       logoStyle: "",
@@ -1112,7 +1112,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       discord: "",
       facebook: "",
       instagram: "",
-      twitter: "",
+      twitter: "nooksguide",
       git: "",
       information: ["art", "critters", "fossils", "villagers"],
       tools: ["checklist", "design sharing", "dreams", "turnips", "queueing"]
@@ -1182,7 +1182,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       tools: ["queueing"]
     }, {
       name: "Turnip Prophet",
-      description: "Turnip price prediction tool available in multiple languages.",
+      description: "Turnip price prediction tool available in multiple languages",
       languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
       logo: "",
       logoStyle: "",

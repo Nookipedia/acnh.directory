@@ -535,7 +535,7 @@ const projectsData = [
     },
     {
         name: "ACNH Music",
-        description: "Web app that plays the current hourly music from Animal Crossing: New Horizons.",
+        description: "Web app that plays the current hourly music from Animal Crossing: New Horizons",
         languages: ["en"],
         logo: "",
         logoStyle: "",
@@ -737,7 +737,7 @@ const projectsData = [
     },
     {
         name: "CatalogScanner",
-        description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos.",
+        description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos",
         languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
         logo: "catalog-scanner.png",
         logoStyle: "icon",
@@ -795,7 +795,6 @@ const projectsData = [
         tools: [
             "design sharing",
             "dreams",
-            "giveaways",
             "marketplace",
             "queueing"
         ]
@@ -908,7 +907,7 @@ const projectsData = [
     },
     {
         name: "NMT Calculator",
-        description: "Calculates odds of finding villagers on Mystery Islands.",
+        description: "Calculates odds of finding villagers on Mystery Islands",
         languages: ["en"],
         logo: "",
         logoStyle: "",
@@ -1134,7 +1133,7 @@ const projectsData = [
         discord: "",
         facebook: "",
         instagram: "",
-        twitter: "",
+        twitter: "nooksguide",
         git: "",
         information: [
             "art",
@@ -1236,7 +1235,7 @@ const projectsData = [
     },
     {
         name: "Turnip Prophet",
-        description: "Turnip price prediction tool available in multiple languages.",
+        description: "Turnip price prediction tool available in multiple languages",
         languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
         logo: "",
         logoStyle: "",
