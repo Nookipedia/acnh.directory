@@ -36,6 +36,9 @@ export class DirectoryComponent implements OnInit {
     // Set default value to English and filter:
     this.langForm.patchValue({ lang: 'en', tc: true });
 
+    // Apply filters to show English resources on inital load
+    this.applyFilters();
+
     // Set filter dropdown values:
     this.dropdownListPlatforms = [
       { item_id: 'website', item_text: 'Website' },
