@@ -22,10 +22,14 @@ jobs:
         run: |
           npm install
           npm run build
+      - name: Create 404.html and CNAME
+        run: |
+          cp dist/acnh.directory/index.html dist/acnh.directory/404.html
+          echo "acnh.directory" > dist/acnh.directory/CNAME
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: dist/acnh-directory # The folder the action should deploy.
-          CLEAN: false
+          CLEAN: true
