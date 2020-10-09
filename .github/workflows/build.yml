@@ -25,7 +25,7 @@ jobs:
       - name: Create 404.html and CNAME
         run: |
           cp dist/acnh-directory/index.html dist/acnh-directory/404.html
-          echo "acnh.directory" > dist/acnht-directory/CNAME
+          echo "acnh.directory" > dist/acnh-directory/CNAME
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
