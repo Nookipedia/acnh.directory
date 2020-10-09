@@ -178,7 +178,7 @@ export const projectsData = [
         ],
         tools: []
     },
-	{
+    {
         name: "ACNH.Guide",
         description: "A Free Multi-Purpose Guide and Cataloging app with Catalog Scanner integration for New Horizons.",
         languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
