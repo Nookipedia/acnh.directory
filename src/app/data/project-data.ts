@@ -525,7 +525,7 @@ export const projectsData = [
         ]
     },
     {
-        name: "Garden Science Flower Breeding Simulator",
+        name: "Flower Breeding Simulator",
         description: "A fancy tool to simulate flower breeding and pattern performance",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
         logo: "garden-science.png",
@@ -912,6 +912,33 @@ export const projectsData = [
             "villages"
         ],
         tools: []
+    },
+    {
+        name: "The ULTIMATE Catalogue",
+        description: "A full ACNH catalogue and checklist containing all items in the game and more",
+        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
+        logo: "catalogue-ac.png",
+        logoStyle: "icon",
+        site: "https://catalogue.ac",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "gifts",
+            "items",
+            "villagers"
+        ],
+        tools: [
+            "checklist",
+            "fake art"
+        ]
     },
     {
         name: "Turnip.Exchange",
