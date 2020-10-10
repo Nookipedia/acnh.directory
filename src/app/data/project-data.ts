@@ -525,7 +525,7 @@ export const projectsData = [
         ]
     },
     {
-        name: "Garden Science Flower Breeding Simulator",
+        name: "Flower Breeding Simulator",
         description: "A fancy tool to simulate flower breeding and pattern performance",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
         logo: "garden-science.png",
