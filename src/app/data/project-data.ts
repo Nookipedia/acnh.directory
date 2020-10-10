@@ -914,6 +914,33 @@ export const projectsData = [
         tools: []
     },
     {
+        name: "The ULTIMATE Catalogue",
+        description: "A full ACNH catalogue and checklist containing all items in the game and more",
+        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
+        logo: "catalogue-ac.png",
+        logoStyle: "icon",
+        site: "https://catalogue.ac",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "gifts",
+            "items",
+            "villagers"
+        ],
+        tools: [
+            "checklist",
+            "fake art"
+        ]
+    },
+    {
         name: "Turnip.Exchange",
         description: "Queue for turnip selling and more",
         languages: ["en"],
