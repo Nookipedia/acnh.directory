@@ -566,17 +566,17 @@ export const projectsData = [
     },
     {
         name: "Horizonpedia",
-        description: "App for iOS and Android with Item catalog, fake art comparison, and more!",
+        description: "Aiming to be the most userfriendly App for iOS and Android with Item catalog, fake art comparison, and more!",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh", "se"],
         logo: "",
         logoStyle: "",
         site: "",
         android: "https://play.google.com/store/apps/details?id=com.wegner.horizonpedia",
         ios: "https://testflight.apple.com/join/cYhwMhdD",
-        discord: "https://discord.gg/pQMRkMg",
+        discord: "pQMRkMg",
         facebook: "",
-        instagram: "https://www.instagram.com/horizonpedia/",
-        twitter: "https://twitter.com/HorizonpediaE",
+        instagram: "horizonpedia",
+        twitter: "HorizonpediaE",
         git: "",
         information: [
             "art",
@@ -588,6 +588,7 @@ export const projectsData = [
         tools: [
             "checklist",
             "fake art",
+            "turnips"
         ]
     },
     {
