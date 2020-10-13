@@ -565,6 +565,33 @@ export const projectsData = [
         ]
     },
     {
+        name: "Horizonpedia",
+        description: "Aiming to be the most userfriendly App for iOS and Android with Item catalog, fake art comparison, and more!",
+        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh", "se"],
+        logo: "",
+        logoStyle: "",
+        site: "",
+        android: "https://play.google.com/store/apps/details?id=com.wegner.horizonpedia",
+        ios: "https://testflight.apple.com/join/cYhwMhdD",
+        discord: "pQMRkMg",
+        facebook: "",
+        instagram: "horizonpedia",
+        twitter: "HorizonpediaE",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "items",
+            "villagers",
+        ],
+        tools: [
+            "checklist",
+            "fake art",
+            "turnips"
+        ]
+    },
+    {
         name: "icebr's AC:NH Helper",
         description: "Fish and bugs that are available for catching in AC:NH depend on location, time and current month",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
