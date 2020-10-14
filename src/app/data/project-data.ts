@@ -180,9 +180,9 @@ export const projectsData = [
     },
     {
         name: "ACNH.Guide",
-        description: "A Free Multi-Purpose Guide and Cataloging app with Catalog Scanner integration for New Horizons.",
+        description: "A free multi-purpose guide and cataloging app with Catalog Scanner integration for New Horizons.",
         languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
-        logo: "acnh-guide.png",
+        logo: "acnh-guide.gif",
         logoStyle: "banner",
         site: "https://acnh.guide/",
         android: "https://acnh.guide/android",
