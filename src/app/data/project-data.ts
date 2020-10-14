@@ -279,7 +279,7 @@ export const projectsData = [
         languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
         logo: "acnh-travel-guide.png",
         logoStyle: "icon",
-        site: "https://acnhtravelguide.app",
+        site: "",
         android: "",
         ios: "https://apps.apple.com/us/app/acnh-travel-guide/id1502818559",
         discord: "",
