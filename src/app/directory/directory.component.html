@@ -71,7 +71,7 @@
     <div class="content-div">
       <div class="flex-container-inline name-container">
         <div *ngIf="p.logo !== undefined && p.logo !== ''" class="flex-item">
-        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" nofollow>
+        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
           <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
         </a>
         <ng-template #noLink>
@@ -79,7 +79,7 @@
         </ng-template>
         </div>
         <div *ngIf="p.logoStyle === 'icon' || (p.logo === undefined || p.logo === '')" class="flex-item">
-        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" nofollow>
+        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
           <span class="title">{{p.name}}</span>
         </a>
         <ng-template #noLink>
@@ -98,56 +98,56 @@
       </div>
       <div class="flex-container link-button">
         <div *ngIf="p.site !== undefined && p.site !== ''" class="link-button site" tabindex="0">
-          <a href="{{p.site}}" target="_blank" nofollow>
+          <a href="{{p.site}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/link.png" alt="Visit website" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.android" class="link-button android" tabindex="0">
-          <a href="{{p.android}}" target="_blank" nofollow>
+          <a href="{{p.android}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/android.png" alt="Download on Google Play" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.ios" class="link-button ios" tabindex="0">
-          <a href="{{p.ios}}" target="_blank" nofollow>
+          <a href="{{p.ios}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/apple.png" alt="Download on the App Store" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.facebook" class="link-button facebook" tabindex="0">
-          <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" nofollow>
+          <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/facebook.png" alt="Facebook profile" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.twitter" class="link-button twitter" tabindex="0">
-          <a href="https://twitter.com/{{p.twitter}}" target="_blank" nofollow>
+          <a href="https://twitter.com/{{p.twitter}}" target="_blank" rel="noopener" nofollow>
             <div>
             <img class="link-button" src="assets/images/links/twitter.png" alt="Twitter profile" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.instagram" class="link-button instagram" tabindex="0">
-          <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" nofollow>
+          <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/instagram.png" alt="Instagram profile" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.discord" class="link-button discord" tabindex="0">
-          <a href="https://discord.gg/{{p.discord}}" target="_blank" nofollow>
+          <a href="https://discord.gg/{{p.discord}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/discord.png" alt="Discord invite" width="16px">
             </div>
           </a>
         </div>
         <div *ngIf="p.git" class="link-button git" tabindex="0">
-          <a href="{{p.git}}" target="_blank" nofollow>
+          <a href="{{p.git}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/git.png" alt="Git link" width="16px">
             </div>
