@@ -180,27 +180,29 @@ export const projectsData = [
     },
     {
         name: "ACNH.Guide",
-        description: "User-friendly display of data for bugs, fish, villagers, items, and more",
-        languages: ["en"],
-        logo: "acnh-guide.png",
-        logoStyle: "icon",
+        description: "A free multi-purpose guide and cataloging app with Catalog Scanner integration for New Horizons.",
+        languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
+        logo: "acnh-guide.gif",
+        logoStyle: "banner",
         site: "https://acnh.guide/",
-        android: "https://play.google.com/store/apps/details?id=dev.genesy.animalcrossingnhguide",
-        ios: "https://apps.apple.com/us/app/id1504317399",
-        discord: "5vwumWT",
+        android: "https://acnh.guide/android",
+        ios: "https://acnh.guide/ios",
+        discord: "3232gNC",
         facebook: "",
         instagram: "",
-        twitter: "",
+        twitter: "GeneSy",
         git: "",
         information: [
             "art",
             "critters",
             "fossils",
+            "gameplay",
             "items",
             "villagers"
         ],
         tools: [
             "checklist",
+            "dreams",
             "turnips"
         ]
     },
