@@ -275,11 +275,11 @@ export const projectsData = [
     },
     {
         name: "ACNH Travel Guide",
-        description: "New Horizons companion app, providing you with information and progress tracking",
-        languages: ["en"],
+        description: "Companion app for iOS with all information and tools you need, and a great design",
+        languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
         logo: "acnh-travel-guide.png",
         logoStyle: "icon",
-        site: "",
+        site: "https://acnhtravelguide.app",
         android: "",
         ios: "https://apps.apple.com/us/app/acnh-travel-guide/id1502818559",
         discord: "",
@@ -292,11 +292,14 @@ export const projectsData = [
             "critters",
             "fossils",
             "items",
-            "villagers"
+            "villagers",
+            "flowers",
+            "gifts"
         ],
         tools: [
             "checklist",
-            "turnips"
+            "turnips",
+            "dreams",
         ]
     },
     {
