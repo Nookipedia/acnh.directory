@@ -720,6 +720,7 @@ export const projectsData = [
             "items"
         ],
         tools: [
+            "checklist",
             "marketplace"
         ]
     },
