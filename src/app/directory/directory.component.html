@@ -70,16 +70,16 @@
   <div class="listing max-width" *ngFor="let p of projects">
     <div class="content-div">
       <div class="flex-container-inline name-container">
-        <div *ngIf="p.logo !== undefined && p.logo !== ''" class="flex-item">
-        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
+        <div *ngIf="p.logo" class="flex-item">
+        <a *ngIf="p.site; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
           <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
         </a>
         <ng-template #noLink>
           <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
         </ng-template>
         </div>
-        <div *ngIf="p.logoStyle === 'icon' || (p.logo === undefined || p.logo === '')" class="flex-item">
-        <a *ngIf="p.site !== undefined && p.site !== ''; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
+        <div *ngIf="p.logoStyle === 'icon' || !p.logo" class="flex-item">
+        <a *ngIf="p.site; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
           <span class="title">{{p.name}}</span>
         </a>
         <ng-template #noLink>
@@ -97,7 +97,7 @@
         <span class="tag tools hover" *ngFor="let c of p.tools" (click)="singleFeatureFilter(c)">{{c}}</span>
       </div>
       <div class="flex-container link-button">
-        <div *ngIf="p.site !== undefined && p.site !== ''" class="link-button site" tabindex="0">
+        <div *ngIf="p.site" class="link-button site" tabindex="0">
           <a href="{{p.site}}" target="_blank" rel="noopener" nofollow>
             <div>
               <img class="link-button" src="assets/images/links/link.png" alt="Visit website" width="16px">
