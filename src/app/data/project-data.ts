@@ -393,6 +393,37 @@ export const projectsData = [
         tools: []
     },
     {
+        name: "Animal Guide for ACNH",
+        description: "Fan-made guidebook for ACNH with comprehensive info on collectibles, villagers, and more",
+        languages: ["en"],
+        logo: "animal-guide-for-acnh.png",
+        logoStyle: "",
+        site: "https://animalguide.app/",
+        android: "https://play.google.com/store/apps/details?id=com.playgroup.animalcrossguide&hl=en",
+        ios: "https://apps.apple.com/us/app/animal-guide-for-acnh/id1507549116",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "flowers",
+            "fossils",
+            "gameplay",
+            "gifts",
+            "items",
+            "villagers"
+        ],
+        tools: [
+            "checklist",
+            "music",
+            "marketplace",
+            "turnips"
+        ]
+    },
+    {
         name: "cestislife's Visual Guides",
         description: "A compilation of visual guides made by cestislife",
         languages: ["en"],
