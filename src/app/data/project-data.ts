@@ -771,14 +771,11 @@ export const projectsData = [
         information: [
             "art",
             "gameplay",
-            "items",
         ],
         tools: [
             "dreams",
             "fake art",
-            "turnips",
             "queueing",
-            "island rating"
         ]
     },
     {
