@@ -756,6 +756,29 @@ export const projectsData = [
         ]
     },
     {
+        name: "NookFriends",
+        description: "The friendliest Animal Crossing: New Horizons community!",
+        languages: ["en"],
+        logo: "nookfriends.png",
+        logoStyle: "banner",
+        site: "https://www.nookfriends.com/",
+        android: "",
+        ios: "",
+        facebook: "nookfriend",
+        instagram: "nookfriendsanimalcrossing",
+        twitter: "nookfriendsACNH",
+        git: "",
+        information: [
+            "art",
+            "gameplay",
+        ],
+        tools: [
+            "dreams",
+            "fake art",
+            "queueing",
+        ]
+    },
+    {
         name: "Nookipedia",
         description: "The independent Animal Crossing wiki, covering the series along with an API service",
         languages: ["en"],
