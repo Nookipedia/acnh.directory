@@ -112,6 +112,31 @@ export const projectsData = [
         ]
     },
     {
+        name: "ACNH Beginner's Guide",
+        description: "Fan-made beginner's guide for AC:NH",
+        languages: ["en"],
+        logo: "bg_logo.png",
+        logoStyle: "banner",
+        site: "https://chibisnorlax.github.io/acnhbeginners/",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://chibisnorlax.github.io/acnhbeginners/",
+        information: [ 
+            "art", 
+            "critters", 
+            "flowers", 
+            "fossils", 
+            "gameplay", 
+            "villagers",
+        ],
+        tools: [
+        ]
+    },
+    {
         name: "ACNH Database",
         description: "List of critters, items, villagers, recipes, and more",
         languages: ["en"],
@@ -158,6 +183,31 @@ export const projectsData = [
             "villagers"
         ],
         tools: []
+    },
+    {
+        name: "ACNH FAQ",
+        description: "Fan-made FAQ for AC:NH",
+        languages: ["en"],
+        logo: "faq_logo.png",
+        logoStyle: "banner",
+        site: "https://chibisnorlax.github.io/acnhfaq/",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://chibisnorlax.github.io/acnhfaq/",
+        information: [ 
+            "art", 
+            "critters", 
+            "flowers", 
+            "fossils", 
+            "gameplay", 
+            "villagers",
+        ],
+        tools: [
+        ]
     },
     {
         name: "ACNH Flowers",
@@ -249,7 +299,27 @@ export const projectsData = [
         information: [
         ],
         tools: [
-            "music"
+        "music"
+        ]
+    },
+    {
+        name: "ACNH Plant Guide",
+        description: "A guide to every plant in the game (except for flowers)",
+        languages: ["en"],
+        logo: "plant_logo.png",
+        logoStyle: "banner",
+        site: "https://bigfootmg.github.io/ACNH-Plant-Guide/",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "bigfootvgm",
+        twitter: "b19f00t",
+        git: "https://github.com/BigfootMG/ACNH-Plant-Guide",
+        information: [
+        "gameplay"
+        ],
+        tools: [
         ]
     },
     {
