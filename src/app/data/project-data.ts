@@ -124,17 +124,16 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
-        git: "https://chibisnorlax.github.io/acnhbeginners/",
+        git: "https://github.com/chibisnorlax/acnhbeginners",
         information: [ 
             "art", 
             "critters", 
             "flowers", 
             "fossils", 
             "gameplay", 
-            "villagers",
+            "villagers"
         ],
-        tools: [
-        ]
+        tools: []
     },
     {
         name: "ACNH Database",
@@ -197,17 +196,16 @@ export const projectsData = [
         facebook: "",
         instagram: "",
         twitter: "",
-        git: "https://chibisnorlax.github.io/acnhfaq/",
+        git: "https://github.com/chibisnorlax/acnhfaq",
         information: [ 
             "art", 
             "critters", 
             "flowers", 
             "fossils", 
             "gameplay", 
-            "villagers",
+            "villagers"
         ],
-        tools: [
-        ]
+        tools: []
     },
     {
         name: "ACNH Flowers",
@@ -296,10 +294,9 @@ export const projectsData = [
         instagram: "",
         twitter: "",
         git: "",
-        information: [
-        ],
+        information: [],
         tools: [
-        "music"
+            "music"
         ]
     },
     {
@@ -317,10 +314,9 @@ export const projectsData = [
         twitter: "b19f00t",
         git: "https://github.com/BigfootMG/ACNH-Plant-Guide",
         information: [
-        "gameplay"
+            "gameplay"
         ],
-        tools: [
-        ]
+        tools: []
     },
     {
         name: "ACNH Translation Spreadsheet",
