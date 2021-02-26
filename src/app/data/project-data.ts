@@ -734,6 +734,23 @@ export const projectsData = [
         ]
     },
     {
+        name: "My Dodo Link",
+        description: "Islands queue manager, go in line and receive the dodo code when it's your turn.",
+        languages: ["en", "it"],
+        logo: "my-dodo-link.png",
+        logoStyle: "",
+        site: "https://mydodo.link",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [],
+        tools: ["queueing"]
+    },
+    {
         name: "NMT Calculator",
         description: "Calculates odds of finding villagers on Mystery Islands",
         languages: ["en"],
