@@ -394,6 +394,34 @@ export const projectsData = [
         tools: []
     },
     {
+        name: "Animal Crossing Life",
+        description: "Il più longevo punto di riferimento per i fan di Animal Crossing in Italia",
+        languages: ["it"],
+        logo: "",
+        logoStyle: "",
+        site: "https://animalcrossinglife.com/",
+        android: "",
+        ios: "",
+        discord: "wVh3ZWV",
+        facebook: "animalcrossinglife",
+        instagram: "acldaily",
+        twitter: "aclife",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "gameplay",
+            "gifts",
+            "items",
+            "villagers"
+        ],
+        tools: [
+            "wiki",
+            
+        ]
+    },
+    {
         name: "Animal Crossing Pattern Tool",
         description: "Pattern designer compatible with NL, HHD, and NH",
         languages: ["en"],
