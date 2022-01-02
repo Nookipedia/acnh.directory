@@ -609,7 +609,7 @@ export const projectsData = [
         site: "https://animalcrossing.fandom.com/wiki/Animal_Crossing_Wiki",
         android: "",
         ios: "",
-        discord: "5vDwcy",
+        discord: "Uu7dx4P9",
         facebook: "",
         instagram: "",
         twitter: "",
