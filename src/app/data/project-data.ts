@@ -717,7 +717,7 @@ export const projectsData = [
     {
         name: "iNook",
         description: "Your super-vitaminized NookPhone has arrived!",
-        languages: "Spanish, English, Catalan, Deutsch (Coming Soon), Italiano (84%)",
+        languages: ["en", "es", "ca"],
         logo: "iNook.png",
         logoStyle: "icon",
         site: "",
