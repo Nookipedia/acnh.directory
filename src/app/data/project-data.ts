@@ -715,6 +715,30 @@ export const projectsData = [
         ]
     },
     {
+        name: "iNook",
+        description: "Your super-vitaminized NookPhone has arrived!",
+        languages: "Spanish, English, Catalan, Deutsch (Coming Soon), Italiano (84%)",
+        logo: "iNook.png",
+        logoStyle: "icon",
+        site: "",
+        android: "https://play.google.com/store/apps/details?id=com.jeluchu.inook",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [],
+        tools: [
+            "Checklist",
+            "Fake Art Detection",
+            "Wiki",
+            "Watch Videos",
+            "Card builder (still under development)",
+            "Show all info",
+        ]
+    },
+    {
         name: "MeteoNook",
         description: "Predict your island's weather patterns, including exact times for meteor showers, rainbows and the aurora borealis",
         languages: ["en"],
