@@ -87,6 +87,32 @@ export const projectsData = [
         tools: []
     },
     {
+        name: "AC Wildlife",
+        description: "Tracking tool for Critters, Art, Achievements and more! Add your friends to share progress!",
+        languages: ["en"],
+        logo: "",
+        logoStyle: "",
+        site: "https://acwildlife.com/",
+        android: "",
+        ios: "",
+        discord: "",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "https://github.com/zeepk/wildlife",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "items",
+            "gameplay",
+            "villagers"
+        ],
+        tools: [
+            "checklist"
+        ]
+    },
+    {
         name: "ACNH API",
         description: "A free RESTful API for critters, fossils, art, music, furniture and villagers from Animal Crossing: New Horizons",
         languages: ["en"],
