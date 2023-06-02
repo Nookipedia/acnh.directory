@@ -16,36 +16,36 @@
       <div id="filters-container" class="flex-container">
         <div class="flex-item filter">
           <h3 class="font-platforms coustard">Platforms</h3>
-          <ng-multiselect-dropdown
+          <ng-multiselect-dropdown3
           [settings]="dropdownSettings"
           [placeholder]="'Select platform...'"
           [data]="dropdownListPlatforms"
           [(ngModel)]="selectedItemsPlatforms"
           (onSelect)="applyFilters()"
           (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown>
+          ></ng-multiselect-dropdown3>
         </div>
         <div class="flex-item filter">
           <h3 class="font-information coustard">Information</h3>
-          <ng-multiselect-dropdown
+          <ng-multiselect-dropdown3
           [settings]="dropdownSettings"
           [placeholder]="'Select info...'"
           [data]="dropdownListInformation"
           [(ngModel)]="selectedItemsInformation"
           (onSelect)="applyFilters()"
           (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown>
+          ></ng-multiselect-dropdown3>
         </div>
         <div class="flex-item filter">
           <h3 class="font-tools coustard">Tools</h3>
-          <ng-multiselect-dropdown
+          <ng-multiselect-dropdown3
           [settings]="dropdownSettings"
           [placeholder]="'Select tools...'"
           [data]="dropdownListTools"
           [(ngModel)]="selectedItemsTools"
           (onSelect)="applyFilters()"
           (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown>
+          ></ng-multiselect-dropdown3>
         </div>
       </div>
       <div class="font-prose centered table">

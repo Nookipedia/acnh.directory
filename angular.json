@@ -119,5 +119,8 @@
         }
       }
     }},
-  "defaultProject": "acnh-directory"
+  "defaultProject": "acnh-directory",
+  "cli": {
+    "analytics": false
+  }
 }

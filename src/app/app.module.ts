@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
+import { NgMultiselectDropdown3Module } from 'ng-multiselect-dropdown3';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +21,7 @@ import { DirectoryComponent } from './directory/directory.component';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    NgMultiSelectDropDownModule.forRoot()
+    NgMultiselectDropdown3Module
   ],
   providers: [],
   bootstrap: [AppComponent]
