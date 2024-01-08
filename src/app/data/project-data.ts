@@ -113,31 +113,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "ACNH API",
-        description: "A free RESTful API for critters, fossils, art, music, furniture and villagers from Animal Crossing: New Horizons",
-        languages: ["en"],
-        logo: "",
-        logoStyle: "",
-        site: "https://acnhapi.com/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "https://github.com/alexislours/ACNHAPI",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "api"
-        ]
-    },
-    {
         name: "ACNH Beginner's Guide",
         description: "Fan-made beginner's guide for AC:NH",
         languages: ["en"],
