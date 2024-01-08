@@ -976,32 +976,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "VillagersClub",
-        description: "Villagers, Clothing, Furniture, Critters, and Recipe info",
-        languages: ["en"],
-        logo: "villagersclub.jpg",
-        logoStyle: "banner",
-        site: "https://villagers.club/",
-        android: "",
-        ios: "",
-        discord: "7hdZGahHhr",
-        facebook: "VillagersClub",
-        instagram: "villagersclub",
-        twitter: "VillagersClub",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "checklist",
-            "marketplace"
-        ]
-    },
-    {
         name: "Yue's ACNH Guides",
         description: "Visual guides made by Yue, available in multiple languages",
         languages: ["en", "de", "jp", "zh"],
