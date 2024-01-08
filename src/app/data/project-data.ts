@@ -583,7 +583,7 @@ export const projectsData = [
         logoStyle: "",
         site: "",
         android: "https://play.google.com/store/apps/details?id=com.wegner.horizonpedia",
-        ios: "https://testflight.apple.com/join/cYhwMhdD",
+        ios: "https://apps.apple.com/us/app/horizonpedia/id1514592054",
         discord: "pQMRkMg",
         facebook: "",
         instagram: "horizonpedia",
