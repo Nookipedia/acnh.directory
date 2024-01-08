@@ -937,27 +937,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Nook Market",
-        description: "Buy and sell items and villagers",
-        languages: ["en"],
-        logo: "nook-market.png",
-        logoStyle: "icon",
-        site: "https://nook.market/",
-        android: "",
-        ios: "",
-        discord: "NS5yfKS",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "items"
-        ],
-        tools: [
-            "marketplace"
-        ]
-    },
-    {
         name: "Nooknet",
         description: "Comprehensive services, including checklists, design sharing, dream codes, tune creation, turnip calculator, and more",
         languages: ["en"],
