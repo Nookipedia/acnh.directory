@@ -1045,29 +1045,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Nook's Island",
-        description: "Browse from 20,000+ user-submitted custom designs, or submit your own",
-        languages: ["en"],
-        logo: "nooks-island.png",
-        logoStyle: "banner",
-        site: "https://nooksisland.com/designs",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "nooks.island",
-        twitter: "NooksIsland",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "design sharing",
-            "dreams",
-            "marketplace"
-        ]
-    },
-    {
         name: "Stalks.io",
         description: "Get stalk price predictions, forecasts and advice for you and your friends' islands",
         languages: ["en"],
