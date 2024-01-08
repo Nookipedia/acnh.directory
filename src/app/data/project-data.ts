@@ -639,27 +639,6 @@ export const projectsData = [
         tools: ["queueing"]
     },
     {
-        name: "NMT Calculator",
-        description: "Calculates odds of finding villagers on Mystery Islands",
-        languages: ["en"],
-        logo: "",
-        logoStyle: "",
-        site: "https://acnhapi.com/nmt-calculator",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "https://github.com/alexislours/nmt-calculator",
-        information: [
-            "villagers"
-        ],
-        tools: [
-            "simulator"
-        ]
-    },
-    {
         name: "Nookazon",
         description: "Buy and sell Animal Crossing: New Horizons items",
         languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
