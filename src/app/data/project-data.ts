@@ -328,29 +328,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Almanook",
-        description: "Companion site with info on collectibles, villagers, and more",
-        languages: ["en"],
-        logo: "almanook.png",
-        logoStyle: "banner",
-        site: "https://www.almanook.me/home/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: []
-    },
-    {
         name: "Animal Crossing Pattern Tool",
         description: "Pattern designer compatible with NL, HHD, and NH",
         languages: ["en"],
