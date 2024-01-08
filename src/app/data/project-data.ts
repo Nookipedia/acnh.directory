@@ -184,25 +184,6 @@ export const projectsData = [
         tools: []
     },
     {
-        name: "ACNH Flowers",
-        description: "A simple ACNH guide explaining how to plant flowers to maximize crossbreeding for hybrid flowers and unique colors",
-        languages: ["en"],
-        logo: "acnh-flowers.png",
-        logoStyle: "banner",
-        site: "https://newhorizons.florist/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "flowers"
-        ],
-        tools: []
-    },
-    {
         name: "ACNH.Guide",
         description: "A free multi-purpose guide and cataloging app with Catalog Scanner integration for New Horizons.",
         languages: ["en", "es", "de", "fr", "it", "nl", "ja", "zh", "ko", "ru"],
