@@ -137,31 +137,6 @@ export const projectsData = [
         tools: []
     },
     {
-        name: "ACNH Database",
-        description: "List of critters, items, villagers, recipes, and more",
-        languages: ["en"],
-        logo: "acnh-database.png",
-        logoStyle: "banner",
-        site: "https://www.acnhdatabase.me/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "https://github.com/shengye000/ACNHDatabase",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "music"
-        ]
-    },
-    {
         name: "ACNH Data Spreadsheet",
         description: "A comprehensive Google spreadsheet documenting items, villagers, achievements, and much more",
         languages: ["en"],
