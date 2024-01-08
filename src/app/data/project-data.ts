@@ -445,31 +445,6 @@ export const projectsData = [
         tools: []
     },
     {
-        name: "Completionista",
-        description: "Learn about and track museum collectibles, flowers, albums, recipes, and more",
-        languages: ["en"],
-        logo: "completionista.png",
-        logoStyle: "icon",
-        site: "https://completionista.com/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "checklist"
-        ]
-    },
-    {
         name: "CatalogScanner",
         description: "A simple bot for quickly extracting catalogs, recipes, critters and more from recorded videos",
         languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
