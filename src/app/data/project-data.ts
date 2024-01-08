@@ -603,27 +603,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "icebr's AC:NH Helper",
-        description: "Fish and bugs that are available for catching in AC:NH depend on location, time and current month",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
-        logo: "icebr.png",
-        logoStyle: "icon",
-        site: "https://icebr.art/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "checklist"
-        ]
-    },
-    {
         name: "MeteoNook",
         description: "Predict your island's weather patterns, including exact times for meteor showers, rainbows and the aurora borealis",
         languages: ["en"],
