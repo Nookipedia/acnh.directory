@@ -916,27 +916,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Nook Knack",
-        description: "Catch it. Sell it. Track it.",
-        languages: ["en"],
-        logo: "nook-knack.png",
-        logoStyle: "icon",
-        site: "",
-        android: "https://play.google.com/store/apps/details?id=com.digiwrecks.nookknack",
-        ios: "https://apps.apple.com/us/app/nook-knack-acnh-pricing/id1505749434",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "checklist"
-        ]
-    },
-    {
         name: "Nooknet",
         description: "Comprehensive services, including checklists, design sharing, dream codes, tune creation, turnip calculator, and more",
         languages: ["en"],
