@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
-import { IDropdownSettings } from 'ng-multiselect-dropdown';
+import { IDropdownSettings } from 'ng-multiselect-dropdown3';
 import { projectsData } from '../data/project-data';
 import { languages } from '../data/languages';
 
@@ -34,7 +34,7 @@ export class DirectoryComponent implements OnInit {
 
   ngOnInit() {
     // Set default value to English and filter:
-    this.langForm.patchValue({ lang: 'en', tc: true });
+    this.langForm.patchValue({ lang: 'en' });
 
     // Apply filters to show English resources on inital load
     this.applyFilters();

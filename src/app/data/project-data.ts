@@ -87,28 +87,29 @@ export const projectsData = [
         tools: []
     },
     {
-        name: "ACNH API",
-        description: "A free RESTful API for critters, fossils, art, music, furniture and villagers from Animal Crossing: New Horizons",
+        name: "AC Wildlife",
+        description: "Tracking tool for Critters, Art, Achievements and more! Add your friends to share progress!",
         languages: ["en"],
         logo: "",
         logoStyle: "",
-        site: "https://acnhapi.com/",
+        site: "https://acwildlife.com/",
         android: "",
         ios: "",
         discord: "",
         facebook: "",
         instagram: "",
         twitter: "",
-        git: "https://github.com/alexislours/ACNHAPI",
+        git: "https://github.com/zeepk/wildlife",
         information: [
             "art",
             "critters",
             "fossils",
             "items",
+            "gameplay",
             "villagers"
         ],
         tools: [
-            "api"
+            "checklist"
         ]
     },
     {
@@ -134,31 +135,6 @@ export const projectsData = [
             "villagers"
         ],
         tools: []
-    },
-    {
-        name: "ACNH Database",
-        description: "List of critters, items, villagers, recipes, and more",
-        languages: ["en"],
-        logo: "acnh-database.png",
-        logoStyle: "banner",
-        site: "https://www.acnhdatabase.me/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "https://github.com/shengye000/ACNHDatabase",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "music"
-        ]
     },
     {
         name: "ACNH Data Spreadsheet",
@@ -204,25 +180,6 @@ export const projectsData = [
             "fossils", 
             "gameplay", 
             "villagers"
-        ],
-        tools: []
-    },
-    {
-        name: "ACNH Flowers",
-        description: "A simple ACNH guide explaining how to plant flowers to maximize crossbreeding for hybrid flowers and unique colors",
-        languages: ["en"],
-        logo: "acnh-flowers.png",
-        logoStyle: "banner",
-        site: "https://newhorizons.florist/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "flowers"
         ],
         tools: []
     },
@@ -371,29 +328,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Almanook",
-        description: "Companion site with info on collectibles, villagers, and more",
-        languages: ["en"],
-        logo: "almanook.png",
-        logoStyle: "banner",
-        site: "https://www.almanook.me/home/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: []
-    },
-    {
         name: "Animal Crossing Pattern Tool",
         description: "Pattern designer compatible with NL, HHD, and NH",
         languages: ["en"],
@@ -509,31 +443,6 @@ export const projectsData = [
             "gameplay"
         ],
         tools: []
-    },
-    {
-        name: "Completionista",
-        description: "Learn about and track museum collectibles, flowers, albums, recipes, and more",
-        languages: ["en"],
-        logo: "completionista.png",
-        logoStyle: "icon",
-        site: "https://completionista.com/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "checklist"
-        ]
     },
     {
         name: "CatalogScanner",
@@ -674,7 +583,7 @@ export const projectsData = [
         logoStyle: "",
         site: "",
         android: "https://play.google.com/store/apps/details?id=com.wegner.horizonpedia",
-        ios: "https://testflight.apple.com/join/cYhwMhdD",
+        ios: "https://apps.apple.com/us/app/horizonpedia/id1514592054",
         discord: "pQMRkMg",
         facebook: "",
         instagram: "horizonpedia",
@@ -691,27 +600,6 @@ export const projectsData = [
             "checklist",
             "fake art",
             "turnips"
-        ]
-    },
-    {
-        name: "icebr's AC:NH Helper",
-        description: "Fish and bugs that are available for catching in AC:NH depend on location, time and current month",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
-        logo: "icebr.png",
-        logoStyle: "icon",
-        site: "https://icebr.art/",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "checklist"
         ]
     },
     {
@@ -773,27 +661,6 @@ export const projectsData = [
         git: "",
         information: [],
         tools: ["queueing"]
-    },
-    {
-        name: "NMT Calculator",
-        description: "Calculates odds of finding villagers on Mystery Islands",
-        languages: ["en"],
-        logo: "",
-        logoStyle: "",
-        site: "https://acnhapi.com/nmt-calculator",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "https://github.com/alexislours/nmt-calculator",
-        information: [
-            "villagers"
-        ],
-        tools: [
-            "simulator"
-        ]
     },
     {
         name: "Nookazon",
@@ -914,48 +781,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Nook Knack",
-        description: "Catch it. Sell it. Track it.",
-        languages: ["en"],
-        logo: "nook-knack.png",
-        logoStyle: "icon",
-        site: "",
-        android: "https://play.google.com/store/apps/details?id=com.digiwrecks.nookknack",
-        ios: "https://apps.apple.com/us/app/nook-knack-acnh-pricing/id1505749434",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "checklist"
-        ]
-    },
-    {
-        name: "Nook Market",
-        description: "Buy and sell items and villagers",
-        languages: ["en"],
-        logo: "nook-market.png",
-        logoStyle: "icon",
-        site: "https://nook.market/",
-        android: "",
-        ios: "",
-        discord: "NS5yfKS",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "items"
-        ],
-        tools: [
-            "marketplace"
-        ]
-    },
-    {
         name: "Nooknet",
         description: "Comprehensive services, including checklists, design sharing, dream codes, tune creation, turnip calculator, and more",
         languages: ["en"],
@@ -1040,29 +865,6 @@ export const projectsData = [
             "dreams",
             "turnips",
             "queueing"
-        ]
-    },
-    {
-        name: "Nook's Island",
-        description: "Browse from 20,000+ user-submitted custom designs, or submit your own",
-        languages: ["en"],
-        logo: "nooks-island.png",
-        logoStyle: "banner",
-        site: "https://nooksisland.com/designs",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "nooks.island",
-        twitter: "NooksIsland",
-        git: "",
-        information: [
-            "critters"
-        ],
-        tools: [
-            "design sharing",
-            "dreams",
-            "marketplace"
         ]
     },
     {
@@ -1195,32 +997,6 @@ export const projectsData = [
         ],
         tools: [
             "checklist"
-        ]
-    },
-    {
-        name: "VillagersClub",
-        description: "Villagers, Clothing, Furniture, Critters, and Recipe info",
-        languages: ["en"],
-        logo: "villagersclub.jpg",
-        logoStyle: "banner",
-        site: "https://villagers.club/",
-        android: "",
-        ios: "",
-        discord: "7hdZGahHhr",
-        facebook: "VillagersClub",
-        instagram: "villagersclub",
-        twitter: "VillagersClub",
-        git: "",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "checklist",
-            "marketplace"
         ]
     },
     {
