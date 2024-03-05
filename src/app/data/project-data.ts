@@ -603,6 +603,31 @@ export const projectsData = [
         ]
     },
     {
+        name: "iNook",
+        description: "Your super-vitaminized NookPhone has arrived!",
+        languages: ["de", "en", "eu", "es", "ca", "fr", "it"],
+        logo: "iNook.png",
+        logoStyle: "icon",
+        site: "https://inook.jeluchu.com/",
+        android: "https://play.google.com/store/apps/details?id=com.jeluchu.inook",
+        ios: "https://apps.apple.com/es/app/inook/id1610550043",
+        discord: "https://discord.com/users/411273865642115072",
+        facebook: "",
+        instagram: "https://www.instagram.com/jeluchu/",
+        twitter: "https://twitter.com/iNookSupport",
+        git: "",
+        information: [],
+        tools: [
+            "Checklist",
+            "Watch Videos",
+            "Card builder",
+            "Letter Builder",
+            "Catalog Scanner",
+            "Turnip Calculator",
+            "Qr Reader"
+        ]
+    },
+    {
         name: "MeteoNook",
         description: "Predict your island's weather patterns, including exact times for meteor showers, rainbows and the aurora borealis",
         languages: ["en"],
