@@ -1,50 +1,5 @@
 export const projectsData = [
     {
-        name: "AC Community (JP)",
-        description: "あつまれ どうぶつの森 コミュニティ",
-        languages: ["jp"],
-        logo: "",
-        logoStyle: "",
-        site: "",
-        android: "",
-        ios: "https://apps.apple.com/jp/app/id1507394206",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters",
-            "fossils",
-            "items"
-        ],
-        tools: [
-            "turnips"
-        ]
-    },
-    {
-        name: "AC Community (KO)",
-        description: "모여봐요 동물의 숲 커뮤니티",
-        languages: ["ko"],
-        logo: "",
-        logoStyle: "",
-        site: "",
-        android: "",
-        ios: "https://apps.apple.com/kr/app/id1507394206",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-            "critters",
-            "fossils"
-        ],
-        tools: [
-            "turnips"
-        ]
-    },
-    {
         name: "AC Helper",
         description: "Companion app for catching critters, logging critters and items, and turnip predictions",
         languages: ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
@@ -238,25 +193,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "ACNH Music",
-        description: "Web app that plays the current hourly music from Animal Crossing: New Horizons",
-        languages: ["en"],
-        logo: "",
-        logoStyle: "",
-        site: "https://acnhapi.com/acnh-music",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [],
-        tools: [
-            "music"
-        ]
-    },
-    {
         name: "ACNH Plant Guide",
         description: "A guide to every plant in the game (except for flowers)",
         languages: ["en"],
@@ -325,6 +261,33 @@ export const projectsData = [
             "checklist",
             "turnips",
             "dreams",
+        ]
+    },
+    {
+        name: "Animal Crossing Enciclopedia",
+        description: "Animal Crossing Enciclopedia es una enciclopedia libre sobre la serie Animal Crossing.",
+        languages: ["es"],
+        logo: "ac_enciclopedia.png",
+        logoStyle: "banner",
+        site: "https://animalcrossing.wikidex.net/wiki/Portada",
+        android: "",
+        ios: "",
+        discord: "6H493kr",
+        facebook: "",
+        instagram: "",
+        twitter: "",
+        git: "",
+        information: [
+            "art",
+            "critters",
+            "fossils",
+            "gameplay",
+            "gifts",
+            "items",
+            "villagers"
+        ],
+        tools: [
+            "wiki"
         ]
     },
     {
@@ -467,26 +430,6 @@ export const projectsData = [
         ]
     },
     {
-        name: "Custom Crossing",
-        description: "Pattern and design sharing",
-        languages: ["en"],
-        logo: "custom-crossing.png",
-        logoStyle: "banner",
-        site: "https://customcrossing.com/",
-        android: "",
-        ios: "",
-        discord: "aYQ3yXw",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [
-        ],
-        tools: [
-            "design sharing"
-        ]
-    },
-    {
         name: "DodoCodes.com",
         description: "All in one ACNH Community with Dodo codes, designs, auctions, giveaways, articles, dreams, user ratings, wishlists, catalogs, and more",
         languages: ["en", "de", "fr", "zh"],
@@ -620,23 +563,6 @@ export const projectsData = [
         tools: [
             "weather"
         ]
-    },
-    {
-        name: "My Dodo Link",
-        description: "Islands queue manager, go in line and receive the dodo code when it's your turn.",
-        languages: ["en", "it"],
-        logo: "my-dodo-link.png",
-        logoStyle: "",
-        site: "https://mydodo.link",
-        android: "",
-        ios: "",
-        discord: "",
-        facebook: "",
-        instagram: "",
-        twitter: "",
-        git: "",
-        information: [],
-        tools: ["queueing"]
     },
     {
         name: "Nookazon",
@@ -948,31 +874,6 @@ export const projectsData = [
         information:  [],
         tools:  [
             "turnips"
-        ]
-    },
-    {
-        name: "VillagerDB",
-        description: "Database of items and villagers, with a wishlist maker",
-        languages: ["en"],
-        logo: "villagerdb.jpg",
-        logoStyle: "icon",
-        site: "https://villagerdb.com/",
-        android: "",
-        ios: "",
-        discord: "n4527pm",
-        facebook: "",
-        instagram: "",
-        twitter: "villagerdb",
-        git: "https://github.com/jefflomacy/villagerdb",
-        information: [
-            "art",
-            "critters",
-            "fossils",
-            "items",
-            "villagers"
-        ],
-        tools: [
-            "checklist"
         ]
     },
     {
