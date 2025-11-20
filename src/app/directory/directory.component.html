@@ -132,6 +132,20 @@
             </div>
           </a>
         </div>
+        <div *ngIf="p.bsky" class="link-button bsky" tabindex="0">
+          <a href="https://bsky.app/profile/{{p.bsky}}" target="_blank" rel="noopener" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/bsky.png" alt="Bluesky profile" width="16px">
+            </div>
+          </a>
+        </div>
+        <div *ngIf="p.threads" class="link-button threads" tabindex="0">
+          <a href="threads.com/{{p.threads}}" target="_blank" rel="noopener" nofollow>
+            <div>
+              <img class="link-button" src="assets/images/links/threads.png" alt="Threads profile" width="16px">
+            </div>
+          </a>
+        </div>
         <div *ngIf="p.instagram" class="link-button instagram" tabindex="0">
           <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" rel="noopener" nofollow>
             <div>
