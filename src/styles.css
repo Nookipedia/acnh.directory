@@ -16,6 +16,26 @@ body {
   width: 100%;
 }
 
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+  }
+}
+
 /* TEXT */
 
 h1 {
@@ -31,16 +51,16 @@ h3 {
 }
 
 a {
-  color: #3F95FA;
+  color: #1B6FD1;
   text-decoration: none;
 }
 
 a:hover {
-  color: #3F95FA;
+  color: #1B6FD1;
 }
 
 a:visited {
-  color: #3F95FA;
+  color: #1B6FD1;
 }
 
 .font-prose {
@@ -49,17 +69,14 @@ a:visited {
 
 .font-platforms {
   color: #359EBB;
-  margin-left: 24px;
 }
 
 .font-information {
   color: #C28514;
-  margin-left: 24px;
 }
 
 .font-tools {
   color: #61A33E;
-  margin-left: 24px;
 }
 
 .coustard {
@@ -116,22 +133,12 @@ a:visited {
 }
 
 #sublogo {
-  color: #C28514;
+  color: #8F620F;
   font-size: 1em;
   font-weight: 400;
 }
 
-/* FORMS */ 
-
-.dropdown-btn {
-  background-color: white;
-  min-width: 170px;
-  width: 90%!important;
-}
-
-.dropdown-list {
-  margin-top: 0!important;
-}
+/* FORMS */
 
 .box {
   background: #F0FFFF;
@@ -140,8 +147,8 @@ a:visited {
 }
 
 .button {
-  background-color: #3f95fa;
-  border: 2px solid #3f95fa;
+  background-color: #1B6FD1;
+  border: 2px solid #1B6FD1;
   border-radius: 5px;
   color: white;
   cursor: pointer;
@@ -151,13 +158,13 @@ a:visited {
   padding: 3px;
   text-align: center;
   text-decoration: none;
-  transition-duration: .4s;
+  transition-duration: .2s;
   width: 170px;
 }
 
 .button:hover {
   background-color: white;
-  color: #3f95fa;
+  color: #1B6FD1;
 }
 
 /* POSITIONING */
@@ -239,7 +246,7 @@ a:visited {
   position: absolute;
   right: 0;
   top: 0;
-  transition: .4s;
+  transition: .2s;
 }
 
 .slider:before {
@@ -250,7 +257,7 @@ a:visited {
   height: 13px;
   left: 2px;
   position: absolute;
-  transition: .4s;
+  transition: .2s;
   width: 13px;
 }
 

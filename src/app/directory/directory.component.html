@@ -1,5 +1,6 @@
 <div>
   <div class="box centered">
+    <h2 class="visually-hidden">Filters</h2>
     <div class="content-div">
       <h3 class="font-tools coustard">Resource Language</h3>
       <form id="lang-form" class="coustard">
@@ -66,6 +67,7 @@
     <div id="heading-bottom"></div>
   </div>
 
+  <h2 class="visually-hidden">Resources</h2>
   <div class="results constrained">
     @for (p of projects; track p) {
       <div class="listing max-width">
@@ -86,10 +88,10 @@
               <div class="flex-item">
                 @if (p.site) {
                   <a href="{{p.site}}" target="_blank" rel="noopener nofollow">
-                    <span class="title">{{p.name}}</span>
+                    <h3 class="title">{{p.name}}</h3>
                   </a>
                 } @else {
-                  <span class="title">{{p.name}}</span>
+                  <h3 class="title">{{p.name}}</h3>
                 }
               </div>
             }
@@ -182,6 +184,11 @@
             }
           </div>
         </div>
+      </div>
+    } @empty {
+      <div class="no-results">
+        <p>No resources match your filters.</p>
+        <button class="button" (click)="resetFilters()">Reset Filters</button>
       </div>
     }
   </div>

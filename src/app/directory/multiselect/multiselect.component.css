@@ -4,12 +4,15 @@
 }
 
 .dropdown-btn {
+  background-color: #FFFFFF;
   border: 1px solid #ADADAD;
   border-radius: 4px;
   cursor: pointer;
   font: inherit;
+  min-width: 170px;
   padding: 6px 12px;
   text-align: left;
+  width: 90%;
 }
 
 .dropdown-btn.placeholder .dropdown-label {

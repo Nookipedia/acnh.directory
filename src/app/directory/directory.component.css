@@ -60,17 +60,6 @@ form label span {
 
 /* LISTINGS */
 
-a.button {
-  background-color: green;
-  border-radius: 4px;
-  color: #FFFFFF;
-  display: inline-block;
-  min-width: 50px;
-  padding: 8px;
-  text-align: center;
-  text-decoration: none;
-}
-
 label img {
   vertical-align: middle;
 }
@@ -92,6 +81,8 @@ label span {
 .title {
   font-family: 'Coustard', 'Linux Libertine', Georgia, Times, serif;
   font-size: 1.6em;
+  font-weight: normal;
+  margin: 0;
 }
 
 .name-container {
@@ -103,22 +94,23 @@ label span {
   max-width: 90%;
 }
 
-.image-container {
-  max-width: 60%;
-}
-
 .logo-border {
   filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
 }
 
 .link-button img {
-  padding: 6px 0 3px;
+  display: block;
 }
 
 .link-button div {
+  align-items: center;
   border-radius: 7px;
+  display: flex;
   flex: 1;
+  justify-content: center;
   margin: 0 3px;
+  min-height: 44px;
+  min-width: 44px;
 }
 
 .link-button div:hover {
@@ -179,11 +171,6 @@ label span {
   padding: 2px 4px;
 }
 
-.tag.platforms {
-  background: #A6D8E5;
-  border: 2px solid #359EBB;
-}
-
 .tag.information {
   background: #F5EA9A;
   border: 2px solid #F1E26F;
@@ -194,13 +181,19 @@ label span {
   border: 2px solid #61A33E;
 }
 
+.no-results {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin: 1em auto;
+  max-width: 450px;
+  padding: 30px 20px;
+  text-align: center;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (max-width: 750px) {
-  a.button {
-    width: 50%;
-  }
-  
   #filters-container {
     display: block;
     width: 100%;
