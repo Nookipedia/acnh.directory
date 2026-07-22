@@ -1,0 +1,14 @@
+<button type="button" class="dropdown-btn" [class.placeholder]="!selected.length" (click)="open = !open" [attr.aria-expanded]="open">
+  <span class="dropdown-label">{{ label }}</span>
+  <span class="caret" aria-hidden="true">{{ open ? '▲' : '▼' }}</span>
+</button>
+@if (open) {
+  <div class="dropdown-panel">
+    @for (o of options; track o.id) {
+      <label>
+        <input type="checkbox" [checked]="selected.includes(o.id)" (change)="toggle(o.id)">
+        <span>{{ o.text }}</span>
+      </label>
+    }
+  </div>
+}

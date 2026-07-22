@@ -35,7 +35,7 @@ Site listings are stored in `/src/app/data/project-data.ts` in alphabetical orde
   {
     name: "The Best ACNH Guide",
     description: "Information on villagers, critters, and items.",
-    languages: ["en", "jp"],
+    languages: ["en", "ja"],
     logo: "best-acnh-guide.png",
     logoStyle: "banner",
     site: "https://example.com/",
@@ -74,21 +74,20 @@ Explanation for each field:
 * `git`: Link to the git repository, if applicable.
 * `information`: An alphabetical array of information the resource provides. Can be `art`, `critters`, `flowers`, `fossils`, `gameplay`, `gifts`, `items`, `villagers`.
   * `gameplay` is a sort of catch-all for guides that provide comprehensive gameplay coverage, or substantial material not covered by the other categories.
-* `tools`: An alphabetical array of tools the resource provides. Can be `api`, `checklist`, `design sharing`, `dreams`, `island rating`, `marketplace`, `queueing`, `simulator`, `town tunes`, `turnips`, `weather`, `wiki`.
+* `tools`: An alphabetical array of tools the resource provides. Can be `api`, `checklist`, `design sharing`, `dreams`, `fake art`, `island rating`, `marketplace`, `music`, `queueing`, `simulator`, `town tunes`, `turnips`, `weather`, `wiki`.
 
 ### Removal
 Resources may be removed and archived if they no longer meet the qualifications above. For the "keep up-to-date" criteria, considerable leeway is given for resources to update after an update (we're all busy people!).
 
-Removed resources should be moved from `/src/app/assets/data/projects.json` to `archive.json`.
+Removed resources should be moved from [`src/app/data/project-data.ts`](src/app/data/project-data.ts) to [`archive.ts`](src/app/data/archive.ts).
 
 ## Deployment
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.8.
+This project is built with [Angular](https://angular.dev/) 22 and requires Node.js 22.22.3 or newer.
 
 * **Install dependencies:** Run `npm install` to install all required dependencies, which will be placed in the `node_modules` folder.
-* **Build:** Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-* **Run:** Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-* **Unit tests:** Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-* **Lint:** Run `ng lint` to execute the linter.
+* **Build:** Run `npm run build` to make a production build. The build artifacts will be stored in the `dist/` directory.
+* **Run:** Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* **Unit tests:** Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Licensing
 ACNH.Directory is licensed under the MIT license. See [license file](LICENSE) for full text.

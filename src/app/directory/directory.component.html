@@ -1,159 +1,187 @@
 <div>
   <div class="box centered">
     <div class="content-div">
-        <h3 class="font-tools coustard">Resource Language</h3>
-        <form id="lang-form" class="coustard" [formGroup]="langForm">
-          <div *ngFor="let lang of languageList">
+      <h3 class="font-tools coustard">Resource Language</h3>
+      <form id="lang-form" class="coustard">
+        @for (lang of languageList; track lang.code) {
+          <div>
             <label for={{lang.code}}>
-              <input id={{lang.code}} type="radio" value={{lang.code}} name="lang" (change)="applyFilters()" formControlName="lang" />
+              <input id={{lang.code}} type="radio" name="lang" [value]="lang.code" [checked]="selectedLang === lang.code" (change)="selectLang(lang.code)" />
               <span>{{lang.text}}</span>
             </label>
           </div>
-        </form>
+        }
+      </form>
     </div>
     <br>
-    <div class="content-div">
-      <div id="filters-container" class="flex-container">
-        <div class="flex-item filter">
-          <h3 class="font-platforms coustard">Platforms</h3>
-          <ng-multiselect-dropdown3
-          [settings]="dropdownSettings"
-          [placeholder]="'Select platform...'"
-          [data]="dropdownListPlatforms"
-          [(ngModel)]="selectedItemsPlatforms"
-          (onSelect)="applyFilters()"
-          (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown3>
+      <div class="content-div">
+        <div id="filters-container" class="flex-container">
+          <div class="flex-item filter">
+            <h3 class="font-platforms coustard">Platforms</h3>
+            <app-multiselect
+              [placeholder]="'Select platform...'"
+              [options]="dropdownListPlatforms"
+              [selected]="selectedPlatforms"
+              (selectedChange)="selectedPlatforms = $event; applyFilters()"
+            ></app-multiselect>
+          </div>
+          <div class="flex-item filter">
+            <h3 class="font-information coustard">Information</h3>
+            <app-multiselect
+              [placeholder]="'Select info...'"
+              [options]="dropdownListInformation"
+              [selected]="selectedInformation"
+              (selectedChange)="selectedInformation = $event; applyFilters()"
+            ></app-multiselect>
+          </div>
+          <div class="flex-item filter">
+            <h3 class="font-tools coustard">Tools</h3>
+            <app-multiselect
+              [placeholder]="'Select tools...'"
+              [options]="dropdownListTools"
+              [selected]="selectedTools"
+              (selectedChange)="selectedTools = $event; applyFilters()"
+            ></app-multiselect>
+          </div>
         </div>
-        <div class="flex-item filter">
-          <h3 class="font-information coustard">Information</h3>
-          <ng-multiselect-dropdown3
-          [settings]="dropdownSettings"
-          [placeholder]="'Select info...'"
-          [data]="dropdownListInformation"
-          [(ngModel)]="selectedItemsInformation"
-          (onSelect)="applyFilters()"
-          (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown3>
+        <div class="font-prose centered table">
+          <label class="switch" style="margin-right: 10px;">
+            <input (change)="filterToggle($event)" type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <span class="toggle-label">Only show listings that match all selected filters within each category</span>
         </div>
-        <div class="flex-item filter">
-          <h3 class="font-tools coustard">Tools</h3>
-          <ng-multiselect-dropdown3
-          [settings]="dropdownSettings"
-          [placeholder]="'Select tools...'"
-          [data]="dropdownListTools"
-          [(ngModel)]="selectedItemsTools"
-          (onSelect)="applyFilters()"
-          (onDeSelect)="applyFilters()"
-          ></ng-multiselect-dropdown3>
-        </div>
-      </div>
-      <div class="font-prose centered table">
-        <label class="switch" style="margin-right: 10px;">
-          <input (change)="filterToggle($event)" type="checkbox">
-          <span class="slider"></span>
-        </label>
-        <span class="toggle-label">Only show listings that match all selected filters within each category</span>
-      </div>
-      <div class="font-prose">
-        <button class="button" (click)="resetFilters()">Reset Filters</button>
-        <br><br>
-        <button class="button" (click)="shuffleProjects()">Randomize Order</button>
-        <button class="button" (click)="sortProjects()"><span *ngIf="!sorted">Sort A → Z</span><span *ngIf="sorted">Sort Z → A</span></button>
-      </div>
-    </div>
-  </div>
-  <div id="heading-bottom"></div>
-</div>
-  
-<div class="results constrained">
-  <div class="listing max-width" *ngFor="let p of projects">
-    <div class="content-div">
-      <div class="flex-container-inline name-container">
-        <div *ngIf="p.logo" class="flex-item">
-        <a *ngIf="p.site; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
-          <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
-        </a>
-        <ng-template #noLink>
-          <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
-        </ng-template>
-        </div>
-        <div *ngIf="p.logoStyle === 'icon' || !p.logo" class="flex-item">
-        <a *ngIf="p.site; else noLink" href="{{p.site}}" target="_blank" rel="noopener" nofollow>
-          <span class="title">{{p.name}}</span>
-        </a>
-        <ng-template #noLink>
-          <span class="title">{{p.name}}</span>
-        </ng-template>
-        </div>
-      </div>
-      <div class="description">
-        <div class="table max-width" style="padding: 10px 0px;">
-          <span class="description" style="display: table-cell; text-align: center; vertical-align: middle;">{{p.description}}</span>
-        </div>
-      </div>
-      <div class="tags">
-        <span class="tag information hover" *ngFor="let c of p.information" (click)="singleInformationFilter(c)">{{c}}</span>
-        <span class="tag tools hover" *ngFor="let c of p.tools" (click)="singleFeatureFilter(c)">{{c}}</span>
-      </div>
-      <div class="flex-container link-button">
-        <div *ngIf="p.site" class="link-button site" tabindex="0">
-          <a href="{{p.site}}" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/link.png" alt="Visit website" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.android" class="link-button android" tabindex="0">
-          <a href="{{p.android}}" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/android.png" alt="Download on Google Play" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.ios" class="link-button ios" tabindex="0">
-          <a href="{{p.ios}}" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/apple.png" alt="Download on the App Store" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.facebook" class="link-button facebook" tabindex="0">
-          <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/facebook.png" alt="Facebook profile" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.twitter" class="link-button twitter" tabindex="0">
-          <a href="https://twitter.com/{{p.twitter}}" target="_blank" rel="noopener" nofollow>
-            <div>
-            <img class="link-button" src="assets/images/links/twitter.png" alt="Twitter profile" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.instagram" class="link-button instagram" tabindex="0">
-          <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/instagram.png" alt="Instagram profile" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.discord" class="link-button discord" tabindex="0">
-          <a href="https://discord.gg/{{p.discord}}" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/discord.png" alt="Discord invite" width="16px">
-            </div>
-          </a>
-        </div>
-        <div *ngIf="p.git" class="link-button git" tabindex="0">
-          <a href="{{p.git}}" target="_blank" rel="noopener" nofollow>
-            <div>
-              <img class="link-button" src="assets/images/links/git.png" alt="Git link" width="16px">
-            </div>
-          </a>
+        <div class="font-prose">
+          <button class="button" (click)="resetFilters()">Reset Filters</button>
+          <br><br>
+          <button class="button" (click)="shuffleProjects()">Randomize Order</button>
+          <button class="button" (click)="sortProjects()">@if (sorted) {
+            <span>Sort Z → A</span>
+          } @else {
+            <span>Sort A → Z</span>
+          }</button>
         </div>
       </div>
     </div>
+    <div id="heading-bottom"></div>
   </div>
-</div>
+
+  <div class="results constrained">
+    @for (p of projects; track p) {
+      <div class="listing max-width">
+        <div class="content-div">
+          <div class="flex-container-inline name-container">
+            @if (p.logo) {
+              <div class="flex-item">
+                @if (p.site) {
+                  <a href="{{p.site}}" target="_blank" rel="noopener nofollow">
+                    <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
+                  </a>
+                } @else {
+                  <img [class.logo-border]="p.logoBorder" src="assets/images/logos/{{p.logo}}" alt="{{p.name}}">
+                }
+              </div>
+            }
+            @if (p.logoStyle === 'icon' || !p.logo) {
+              <div class="flex-item">
+                @if (p.site) {
+                  <a href="{{p.site}}" target="_blank" rel="noopener nofollow">
+                    <span class="title">{{p.name}}</span>
+                  </a>
+                } @else {
+                  <span class="title">{{p.name}}</span>
+                }
+              </div>
+            }
+          </div>
+          <div class="description">
+            <div class="table max-width" style="padding: 10px 0px;">
+              <span class="description" style="display: table-cell; text-align: center; vertical-align: middle;">{{p.description}}</span>
+            </div>
+          </div>
+          <div class="tags">
+            @for (c of p.information; track c) {
+              <button type="button" class="tag information hover" (click)="filterBySingleTag('information', c)">{{c}}</button>
+            }
+            @for (c of p.tools; track c) {
+              <button type="button" class="tag tools hover" (click)="filterBySingleTag('tools', c)">{{c}}</button>
+            }
+          </div>
+          <div class="flex-container link-button">
+            @if (p.site) {
+              <div class="link-button site">
+                <a href="{{p.site}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/link.png" alt="Visit website" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.android) {
+              <div class="link-button android">
+                <a href="{{p.android}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/android.png" alt="Download on Google Play" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.ios) {
+              <div class="link-button ios">
+                <a href="{{p.ios}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/apple.png" alt="Download on the App Store" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.facebook) {
+              <div class="link-button facebook">
+                <a href="https://www.facebook.com/{{p.facebook}}/" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/facebook.png" alt="Facebook profile" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.twitter) {
+              <div class="link-button twitter">
+                <a href="https://twitter.com/{{p.twitter}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/twitter.png" alt="Twitter profile" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.instagram) {
+              <div class="link-button instagram">
+                <a href="https://www.instagram.com/{{p.instagram}}/" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/instagram.png" alt="Instagram profile" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.discord) {
+              <div class="link-button discord">
+                <a href="https://discord.gg/{{p.discord}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/discord.png" alt="Discord invite" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+            @if (p.git) {
+              <div class="link-button git">
+                <a href="{{p.git}}" target="_blank" rel="noopener nofollow">
+                  <div>
+                    <img class="link-button" src="assets/images/links/git.png" alt="Git link" width="16px">
+                  </div>
+                </a>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    }
+  </div>

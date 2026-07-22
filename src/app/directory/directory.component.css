@@ -108,7 +108,6 @@ label span {
 }
 
 .logo-border {
-  -webkit-filter: drop-shadow(1px1px0black) drop-shadow(-1px -1px 0 black);
   filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
 }
 
@@ -174,6 +173,7 @@ label span {
   border-radius: 10px;
   color: #464646;
   display: inline-block;
+  font: inherit;
   font-size: .8em;
   margin: 5px;
   padding: 2px 4px;

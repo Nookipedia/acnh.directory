@@ -1,4 +1,6 @@
-export const languages = [
+import { Language } from './project-data';
+
+export const languages: { code: Language, text: string }[] = [
     {
         code: "en",
         text: "English"
@@ -24,6 +26,10 @@ export const languages = [
         text: "Nederlands"
     },
     {
+        code: "sv",
+        text: "Svenska"
+    },
+    {
         code: "ru",
         text: "Русский"
     },
@@ -32,7 +38,7 @@ export const languages = [
         text: "简体中文"
     },
     {
-        code: "jp",
+        code: "ja",
         text: "日本語"
     },
     {

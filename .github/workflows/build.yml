@@ -8,28 +8,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          persist-credentials: false
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-
+          node-version: 22
+          cache: npm
       - name: Install and Build 🔧
         run: |
-          npm install
+          npm ci
           npm run build
       - name: Create 404.html and CNAME
         run: |
           cp dist/acnh-directory/index.html dist/acnh-directory/404.html
           echo "acnh.directory" > dist/acnh-directory/CNAME
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: dist/acnh-directory # The folder the action should deploy.
-          CLEAN: true
+          branch: gh-pages
+          folder: dist/acnh-directory
+          clean: true

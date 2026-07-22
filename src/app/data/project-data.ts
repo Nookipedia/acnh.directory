@@ -1,8 +1,34 @@
-export const projectsData = [
+export type Language = 'en' | 'es' | 'fr' | 'de' | 'it' | 'nl' | 'sv' | 'ru' | 'zh' | 'ja' | 'ko';
+
+export type Information = 'art' | 'critters' | 'flowers' | 'fossils' | 'gameplay' | 'gifts' | 'items' | 'villagers';
+
+export type Tool = 'api' | 'checklist' | 'design sharing' | 'dreams' | 'fake art' | 'island rating' | 'marketplace' | 'music'
+    | 'queueing' | 'simulator' | 'town tunes' | 'turnips' | 'weather' | 'wiki';
+
+export interface Project {
+    name: string;
+    description: string;
+    languages: Language[];
+    logo?: string;
+    logoStyle?: '' | 'banner' | 'icon';
+    logoBorder?: boolean;
+    site?: string;
+    android?: string;
+    ios?: string;
+    discord?: string;
+    facebook?: string;
+    instagram?: string;
+    twitter?: string;
+    git?: string;
+    information: Information[];
+    tools: Tool[];
+}
+
+export const projectsData: Project[] = [
     {
         name: "AC Community (JP)",
         description: "あつまれ どうぶつの森 コミュニティ",
-        languages: ["jp"],
+        languages: ["ja"],
         logo: "",
         logoStyle: "",
         site: "",
@@ -47,7 +73,7 @@ export const projectsData = [
     {
         name: "AC Helper",
         description: "Companion app for catching critters, logging critters and items, and turnip predictions",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ru", "zh"],
         logo: "ac-helper.png",
         logoStyle: "icon",
         site: "",
@@ -278,7 +304,7 @@ export const projectsData = [
     {
         name: "ACNH Translation Spreadsheet",
         description: "A Google spreadsheet listing translation for most of the game's data",
-        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
+        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "ja", "ko"],
         logo: "",
         logoStyle: "",
         site: "https://bit.ly/acnh-translations",
@@ -538,7 +564,7 @@ export const projectsData = [
     {
         name: "Flower Breeding Simulator",
         description: "A fancy tool to simulate flower breeding and pattern performance",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
         logo: "garden-science.png",
         logoStyle: "icon",
         site: "https://gardenscience.ac/",
@@ -578,7 +604,7 @@ export const projectsData = [
     {
         name: "Horizonpedia",
         description: "Aiming to be the most userfriendly App for iOS and Android with Item catalog, fake art comparison, and more!",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh", "se"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh", "sv"],
         logo: "",
         logoStyle: "",
         site: "",
@@ -641,7 +667,7 @@ export const projectsData = [
     {
         name: "Nookazon",
         description: "Buy and sell Animal Crossing: New Horizons items",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
         logo: "nookazon.svg",
         logoStyle: "banner",
         site: "https://nookazon.com/",
@@ -662,7 +688,7 @@ export const projectsData = [
     {
         name: "Nook DB.io",
         description: "Comprehensive item database with filtering, checklists, stalk market calculator, a music player, and more",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ko", "ru", "zh"],
         logo: "nook-db-io.png",
         logoStyle: "icon",
         site: "https://nookdb.io/",
@@ -686,7 +712,7 @@ export const projectsData = [
     {
         name: "Nook Exchange",
         description: "Item tracker and marketplace",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ko", "nl", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ko", "nl", "ru", "zh"],
         logo: "nook-exchange.png",
         logoStyle: "banner",
         site: "https://nook.exchange/",
@@ -788,7 +814,7 @@ export const projectsData = [
     {
         name: "Nook Plaza",
         description: "Item catalog, wishlists, villager gifts, island rating calc, weather forecasting, fake art detector, and more!",
-        languages: ["en", "es", "de", "fr", "it", "jp", "ru", "zh"],
+        languages: ["en", "es", "de", "fr", "it", "ja", "ru", "zh"],
         logo: "nook-plaza.png",
         logoStyle: "banner",
         site: "https://nookplaza.net/",
@@ -881,14 +907,14 @@ export const projectsData = [
             "critters",
             "fossils",
             "items",
-            "villages"
+            "villagers"
         ],
         tools: []
     },
     {
         name: "The ULTIMATE Catalogue",
         description: "A full ACNH catalogue and checklist containing all items in the game and more",
-        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
+        languages: ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "ja", "ko"],
         logo: "catalogue-ac.png",
         logoStyle: "icon",
         site: "https://catalogue.ac",
@@ -934,7 +960,7 @@ export const projectsData = [
     {
         name:  "Turnip Prophet",
         description:  "Turnip price prediction tool available in multiple languages",
-        languages:  ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "jp", "ko"],
+        languages:  ["en", "es", "fr", "de", "it", "nl", "ru", "zh", "ja", "ko"],
         logo:  "",
         logoStyle:  "",
         site:  "https://turnipprophet.io/",
@@ -978,7 +1004,7 @@ export const projectsData = [
     {
         name: "Yue's ACNH Guides",
         description: "Visual guides made by Yue, available in multiple languages",
-        languages: ["en", "de", "jp", "zh"],
+        languages: ["en", "de", "ja", "zh"],
         logo: "yue's-acnh-guides.png",
         logoStyle: "",
         site: "https://yuexr.github.io/acnh/",
